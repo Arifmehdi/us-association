@@ -10,13 +10,11 @@
                             <div class="footer-about">
                                 <img src="{{ asset('frontend/assets/images/logo/footer-logo.svg') }}" alt="Logo" class="img-fluid" />
                                 <p>
-                                    We are legend Lorem ipsum dolor sitmet,
-                                    nsecte ipisicing eit, sed do eiusmod tempor
-                                    incidunt ut et do maga aliqua enim ad minim.
+                                    AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships.
                                 </p>
-                                <a href="#">Phone: +8745 44 5444</a>
-                                <a href="#">Fax: +88474 156 362</a> <br />
-                                <a href="#">Email: demoemail@demo.com</a>
+                                <a href="#">Phone: +1 251-776-3546</a>
+                                {{-- <a href="#">Fax: +88474 156 362</a> <br /> --}}
+                                <a href="#">Email: aasoa@mail.com</a>
                             </div>
                         </div>
                     </div>
@@ -29,8 +27,7 @@
                         <h4 class="widget-title">Get In Touch</h4>
                         <div class="widgei-body">
                             <p>
-                                We are legend Lorem ipsum dolor sitmet, nsecte
-                                ipisicing eit, sed
+                                By continually striving to develop benefits for our members through our Preferred
                             </p>
                             <div class="newsletter-form">
                                 <form id="cbx-subscribe-form">
@@ -43,7 +40,7 @@
                                 </form>
                             </div>
                             <div class="footer-social-icons">
-                                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.facebook.com/aasoaalabama" target="_blank"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
                                 <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#" target="_blank"><i class="fab fa-vimeo-v"></i></a>

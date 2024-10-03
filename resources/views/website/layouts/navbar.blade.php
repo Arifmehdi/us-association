@@ -4,8 +4,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-7 col-7">
                     <div class="preheader-left">
-                        <a href="mailto:info@codeboxr.com"><strong>Email:</strong> info@codeboxr.com</a>
-                        <a href="mailto:info@construc.com"><strong>Hotline:</strong> 880 454 5477</a>
+                        <a href="mailto:aasoa@mail.com"><strong>Email:</strong> aasoa@mail.com</a>
+                        <a href="#"><strong>Hotline:</strong>+1 251-776-3546</a>
                     </div>
                 </div>
 
@@ -55,7 +55,7 @@
                             <a href="{{ route('home') }}">Home</a>
                         </li>
                         <li><a href="{{ route('about') }}">About</a></li>
-                        <li><a href="{{ route('event') }}">Event</a></li>
+                        <li><a href="{{ route('event') }}">Expo</a></li>
                         <li><a href="{{ route('sponsorship') }}">Sponsorship</a></li>
                         <li><a href="{{ route('membership') }}">Membership</a></li>
                         <li><a href="{{ route('gallery') }}">Gallery</a></li>

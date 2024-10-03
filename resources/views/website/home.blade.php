@@ -14,7 +14,7 @@
                             <div class="col-lg-9">
                                 <div class="slider-content">
                                     <h2>We Are Proud</h2>
-                                    <h3>Students of <span>Oxfornt University</span></h3>
+                                    <h3>Member of <span>AASAO</span></h3>
                                     <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                         need (academic, relocation, career, projects, mentorship, etc. you can ask the community
                                         and get responses in three.</p>
@@ -34,7 +34,7 @@
                             <div class="col-lg-9">
                                 <div class="slider-content">
                                     <h2>We Are Not Proud</h2>
-                                    <h3>Students of <span>Oxfornt University</span></h3>
+                                    <h3>Member of <span>AASAO</span></h3>
                                     <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                         need (academic, relocation, career, projects, mentorship, etc. you can ask the community
                                         and get responses in three.</p>
@@ -54,7 +54,7 @@
                             <div class="col-lg-9">
                                 <div class="slider-content">
                                     <h2>Why Proud for u</h2>
-                                    <h3>Students of <span>Oxfornt University</span></h3>
+                                    <h3>Member of <span>AASAO</span></h3>
                                     <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                         need (academic, relocation, career, projects, mentorship, etc. you can ask the community
                                         and get responses in three.</p>
@@ -220,13 +220,12 @@
                                     <img src="{{ asset('frontend/assets/images/misc/about-bg.jpg') }}" alt="" class="img-fluid">
                                 </div>
 
-                                <p>There are many company Lorem ipsm dolor sitg amet, csetur adipicing elit, sed do eiusmod
-                                    tempor dncint ut labore et dolore magna alis enim ad minim veniam, quis csetur adipicing
-                                    elit, sed do eiusmod tempor dncint ut labore et dolore magna alis enim ad minim veniam, quis
-                                    nostrud exercitation ullamco.</p>
-                                <p>There are many company Lorem ipsm dolor sitg amet, csetur adipicing elit, sed do eiusmod
+                                <p>To constantly strive to meet or exceed our customer needs and expectations of price, service, and selection.
+                                    To this end, we will perform periodic reviews of the marketplace to improve our offerings.
+                                    AASOA of Alabama was established in 2012 and we are very fortunate to be able to serve local business owners..</p>
+                                {{-- <p>There are many company Lorem ipsm dolor sitg amet, csetur adipicing elit, sed do eiusmod
                                     tempor dncint ut labore et dolore magna alis enim ad minim veniam, quis nostrud exercitation
-                                    ullamco.</p>
+                                    ullamco.</p> --}}
                                 <a href="#" class="btn btn-brand about-btn">know more</a>
                             </div>
                         </div>
@@ -364,7 +363,7 @@
         <!--======================-->
         <!--=         Job        =-->
         <!--======================-->
-        <section id="job-opportunity" class="section-padding">
+        {{-- <section id="job-opportunity" class="section-padding">
             <div class="container">
                 <!--== Section Title Start ==-->
                 <div class="row">
@@ -508,7 +507,7 @@
                 </div>
                 <!--== Job opportunity Wrapper ==-->
             </div>
-        </section>
+        </section> --}}
 
         <!--==========================-->
         <!--=         Gallery        =-->
@@ -669,10 +668,10 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="scholership-promo-text">
-                            <h2>Demo University Provide <span>Scholarship</span> For Talented Student!</h2>
+                            <h2>AASAO ALABAMA Provide <span>opportunity</span> For grow!</h2>
                             <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need
                                 academic, relocation, career, projects, mentorship, etc you can ask the community and get </p>
-                            <a href="#" class="btn btn-brand">Apply Now</a>
+                            <a href="{{ route('membership') }}" class="btn btn-brand">Membership</a>
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@
                         <div class="page-title-content">
                             <h1 class="h2">Blog List</h1>
                             <p>
-                                Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need
+                                AASOA of Alabama offers opportunities for retailers as well as suppliers.
                             </p>
                             <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
                         </div>
@@ -43,27 +43,26 @@
                                                             <img src="{{ asset('frontend/assets/images/blog/author.jpg') }}" alt="Author">
                                                         </div>
                                                         <div class="author-info">
-                                                            <h5>Daney williams</h5>
-                                                            <p>2 hours Ago</p>
+                                                            <h5>Admin</h5>
+                                                            {{-- <p>2 hours Ago</p> --}}
+                                                            <p>Wed, 06/21/2017 - 06:14</p>
+
                                                         </div>
                                                     </a>
-                                                    <div class="like-comm pull-right">
+                                                    {{-- <div class="like-comm pull-right">
                                                         <a href="#"><i class="fa fa-comment-o"></i>77</a>
                                                         <a href="#"><i class="fa fa-heart-o"></i>12</a>
-                                                    </div>
+                                                    </div> --}}
                                                 </figcaption>
                                             </figure>
 
                                             <div class="blog-content">
                                                 <h3><a href="#">
-                                                        Recently we create a maassive project that will
-                                                        be a.....
+                                                    Productive, Informative& Fruitful
                                                     </a>
                                                 </h3>
                                                 <p>
-                                                    This is a big project of our company, we are happy to completed this type
-                                                    projec which are
-                                                    get world famous award
+                                                    Very productive,informative&fruitful NACS show with our Associate partners (AASOA) from Verginia,North & South Carolina, NewJersey & Alabama (UMA).
                                                 </p>
                                                 <a href="#" class="btn btn-brand">More</a>
                                             </div>
@@ -84,27 +83,27 @@
                                                             <img src="{{ asset('frontend/assets/images/blog/author.jpg') }}" alt="Author">
                                                         </div>
                                                         <div class="author-info">
-                                                            <h5>Daney williams</h5>
-                                                            <p>2 hours Ago</p>
+                                                            <h5>Admin</h5>
+                                                            {{-- <p>2 hours Ago</p> --}}
+                                                            <p>Wed, 10/19/2016 - 17:00</p>
                                                         </div>
                                                     </a>
-                                                    <div class="like-comm pull-right">
+                                                    {{-- <div class="like-comm pull-right">
                                                         <a href="#"><i class="fa fa-comment-o"></i>77</a>
                                                         <a href="#"><i class="fa fa-heart-o"></i>12</a>
-                                                    </div>
+                                                    </div> --}}
                                                 </figcaption>
                                             </figure>
 
                                             <div class="blog-content">
                                                 <h3><a href="#">
-                                                        Recently we create a maassive project that will
-                                                        be a.....
+                                                    First blog
                                                     </a>
                                                 </h3>
                                                 <p>
-                                                    This is a big project of our company, we are happy to completed this type
-                                                    projec which are
-                                                    get world famous award
+                                                    When we started our business 16 months ago we decided to use a blog as the central marketing tool for our business. We did it because we didn’t really have
+                                                    {{-- any money for advertising and we never really believed that
+                                                     attending networking events would work for us. “It’s been a long journey but 16 months later we now get 250,000 pageviews to our site per month, in the last year we have brought in over $500,000 in business as a direct result of the blog and the business operates in 2 countries and our content has been picked up all over the world.” --}}
                                                 </p>
                                                 <a href="#" class="btn btn-brand">More</a>
                                             </div>
@@ -125,28 +124,27 @@
                                                             <img src="{{ asset('frontend/assets/images/blog/author.jpg') }}" alt="Author">
                                                         </div>
                                                         <div class="author-info">
-                                                            <h5>Daney williams</h5>
-                                                            <p>2 hours Ago</p>
+                                                            <h5>Admin</h5>
+                                                            {{-- <p>2 hours Ago</p> --}}
+                                                            <p>Wed, 10/19/2016 - 17:00</p>
                                                         </div>
                                                     </a>
-                                                    <div class="like-comm pull-right">
+                                                    {{-- <div class="like-comm pull-right">
                                                         <a href="#"><i class="fa fa-comment-o"></i>77</a>
                                                         <a href="#"><i class="fa fa-heart-o"></i>12</a>
-                                                    </div>
+                                                    </div> --}}
                                                 </figcaption>
                                             </figure>
 
                                             <div class="blog-content">
                                                 <h3>
                                                     <a href="#">
-                                                        Recently we create a maassive project that will
-                                                        be a.....
+                                                        Second blog
                                                     </a>
                                                 </h3>
                                                 <p>
-                                                    This is a big project of our company, we are happy to completed this type
-                                                    projec which are
-                                                    get world famous award
+                                                    AASOA is a best platform for business.  When we started our business 16 months ago we decided to use a blog as the central marketing tool for our business.
+                                                    {{-- We did it because we didn’t really have any money for advertising and we never really believed that attending networking events would work for us. “It’s been a long journey but 16 months later we now get 250,000 pageviews to our site per month, in the last year we have brought in over $500,000 in business as a direct result of the blog and the business operates in 2 countries and our content has been picked up all over the world.” --}}
                                                 </p>
                                                 <a href="#" class="btn btn-brand">More</a>
                                             </div>
@@ -154,7 +152,7 @@
                                     </div>
                                     <!--== Single Blog Post End ==-->
 
-                                    <!--== Single Blog Post start ==-->
+                                    {{-- <!--== Single Blog Post start ==-->
                                     <div class="col-lg-6 col-md-6">
                                         <article class="single-blog-post">
                                             <figure class="blog-thumb">
@@ -276,7 +274,7 @@
                                             </div>
                                         </article>
                                     </div>
-                                    <!--== Single Blog Post End ==-->
+                                    <!--== Single Blog Post End ==--> --}}
                                 </div>
 
                                 <!-- Pagination Start -->

@@ -10,7 +10,7 @@
                         <div class="page-title-content">
                             <h1 class="h2">Gallary</h1>
                             <p>
-                                Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need
+                                AASOA of Alabama offers opportunities for retailers as well as suppliers.
                             </p>
                             <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
                         </div>
@@ -42,10 +42,7 @@
                                 <div class="single-album-wraper">
                                     <div class="album-heading">
                                         <h2><a href="#">Our last Meetup in 2018</a></h2>
-                                        <p>Etiam vitae tortor. Curabitur nisi. In hac habitasse platea dictumst. Praesent ac
-                                            massa at ligula laoreet iaculis. Praesent ac massa at ligula laoreet iaculis.
-                                            sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis
-                                            ante odio sit amet eros. Nullam quis ante. Curabitur vestibulum.</p>
+                                        <p>AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships.</p>
                                         <a href="#" class="btn btn-brand">View Album</a>
                                     </div>
 
@@ -167,7 +164,7 @@
                                 </div>
                                 <!-- Single Album End -->
 
-                                <!-- Single Album Start -->
+                                {{-- <!-- Single Album Start -->
                                 <div class="single-album-wraper">
                                     <div class="album-heading">
                                         <h2><a href="#">Our last Meetup in 2018</a></h2>
@@ -423,7 +420,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Single Album End -->
+                                <!-- Single Album End --> --}}
                             </div>
                             <div class="pagination-wrap text-center">
                                 <nav>

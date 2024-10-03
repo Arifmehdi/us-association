@@ -10,7 +10,7 @@
                         <div class="page-title-content">
                             <h1 class="h2">Contact Us</h1>
                             <p>
-                                Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need
+                                AASOA of Alabama offers opportunities for retailers as well as suppliers.
                             </p>
                             <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
                         </div>
@@ -32,7 +32,8 @@
                                     <div class="col-lg-5">
                                         <!-- Map Area Start -->
                                         <div class="map-area-wrap">
-                                            <iframe src="https://snazzymaps.com/embed/75079"></iframe>
+                                            {{-- <iframe src="https://snazzymaps.com/embed/75079"></iframe> --}}
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13750.47381533132!2d-88.26447073459975!3d30.503546683102556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x889bc9f068fdb415%3A0x1338341c17dded1d!2sSt%20Elmo%2C%20AL%2036544%2C%20USA!5e0!3m2!1sen!2sbd!4v1727985582882!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                         </div>
                                         <!-- Map Area End -->
                                     </div>
