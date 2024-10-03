@@ -8,7 +8,7 @@
                     <div class="single-widget-wrap">
                         <div class="widgei-body">
                             <div class="footer-about">
-                                <img src="assets/images/logo/footer-logo.svg" alt="Logo" class="img-fluid" />
+                                <img src="{{ asset('frontend/assets/images/logo/footer-logo.svg') }}" alt="Logo" class="img-fluid" />
                                 <p>
                                     We are legend Lorem ipsum dolor sitmet,
                                     nsecte ipisicing eit, sed do eiusmod tempor

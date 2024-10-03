@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title> Home - University Alumni Html Template</title>
+    <title> AASOA - Alabama</title>
 
     <!-- twitter card starts from here, if you don't need remove this section -->
     <meta name="twitter:card" content="summary" />

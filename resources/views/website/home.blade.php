@@ -20,7 +20,7 @@
                                         and get responses in three.</p>
                                     <div class="slider-btn">
                                         <a href="#about-area" class="btn btn-brand smooth-scroll">our mission</a>
-                                        <a href="about.html" class="btn btn-brand-rev">our story</a>
+                                        <a href="#" class="btn btn-brand-rev">our story</a>
                                     </div>
                                 </div>
                             </div>
@@ -111,13 +111,13 @@
                                                             <div class="event-countdown-counter" data-date="2024/9/10"></div>
                                                             <p>Remaining</p>
                                                         </div>
-                                                        <h3><a href="single-event.html">We are going to arrange a get
+                                                        <h3><a href="#">We are going to arrange a get
                                                                 together!</a></h3>
                                                         <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
                                                             elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                                             aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
                                                             laboris nisi ut aliquipv ex ea.</p>
-                                                        <a href="single-event.html" class="btn btn-brand btn-brand-dark">join
+                                                        <a href="#" class="btn btn-brand btn-brand-dark">join
                                                             with us</a>
                                                     </div>
                                                 </div>
@@ -146,13 +146,13 @@
                                                             <div class="event-countdown-counter" data-date="2018/9/10"></div>
                                                             <p>Remaining</p>
                                                         </div>
-                                                        <h3><a href="single-event.html">We are going to arrange a get
+                                                        <h3><a href="#">We are going to arrange a get
                                                                 together!</a></h3>
                                                         <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
                                                             elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                                             aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
                                                             laboris nisi ut aliquipv ex ea.</p>
-                                                        <a href="single-event.html" class="btn btn-brand btn-brand-dark">join
+                                                        <a href="#" class="btn btn-brand btn-brand-dark">join
                                                             with us</a>
                                                     </div>
                                                 </div>
@@ -181,13 +181,13 @@
                                                             <div class="event-countdown-counter" data-date="2025/9/10"></div>
                                                             <p>Remaining</p>
                                                         </div>
-                                                        <h3><a href="single-event.html">We are going to arrange a get
+                                                        <h3><a href="#">We are going to arrange a get
                                                                 together!</a></h3>
                                                         <p>Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
                                                             elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                                             aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
                                                             laboris nisi ut aliquipv ex ea.</p>
-                                                        <a href="single-event.html" class="btn btn-brand btn-brand-dark">join
+                                                        <a href="#" class="btn btn-brand btn-brand-dark">join
                                                             with us</a>
                                                     </div>
                                                 </div>
@@ -227,7 +227,7 @@
                                 <p>There are many company Lorem ipsm dolor sitg amet, csetur adipicing elit, sed do eiusmod
                                     tempor dncint ut labore et dolore magna alis enim ad minim veniam, quis nostrud exercitation
                                     ullamco.</p>
-                                <a href="about.html" class="btn btn-brand about-btn">know more</a>
+                                <a href="#" class="btn btn-brand about-btn">know more</a>
                             </div>
                         </div>
                     </div>
@@ -502,7 +502,7 @@
 
                     <div class="row">
                         <div class="col-lg-12 text-center">
-                            <a href="career.html" class="btn btn-brand btn-loadmore">All job list</a>
+                            <a href="#" class="btn btn-brand btn-loadmore">All job list</a>
                         </div>
                     </div>
                 </div>
@@ -705,7 +705,7 @@
                                     <img src="{{ asset('frontend/assets/images/blog/blog-1.jpg') }}" alt="Blog" class="img-fluid" />
                                 </div>
                                 <figcaption class="blog-meta clearfix">
-                                    <a href="single-blog.html" class="author">
+                                    <a href="#" class="author">
                                         <div class="author-pic">
                                             <img src="{{ asset('frontend/assets/images/blog/author.jpg') }}" alt="Author">
                                         </div>
@@ -722,10 +722,10 @@
                             </figure>
 
                             <div class="blog-content">
-                                <h3><a href="single-blog.html">Recently we create a maassive project that</a></h3>
+                                <h3><a href="#">Recently we create a maassive project that</a></h3>
                                 <p>This is a big project of our company, we are happy to completed this type projec which are
                                     get world famous award</p>
-                                <a href="single-blog.html" class="btn btn-brand">More</a>
+                                <a href="#" class="btn btn-brand">More</a>
                             </div>
                         </article>
                     </div>
@@ -739,7 +739,7 @@
                                     <img src="{{ asset('frontend/assets/images/blog/blog-2.jpg') }}" alt="Blog" class="img-fluid" />
                                 </div>
                                 <figcaption class="blog-meta clearfix">
-                                    <a href="single-blog.html" class="author">
+                                    <a href="#" class="author">
                                         <div class="author-pic">
                                             <img src="{{ asset('frontend/assets/images/blog/author.jpg') }}" alt="Author">
                                         </div>
@@ -756,10 +756,10 @@
                             </figure>
 
                             <div class="blog-content">
-                                <h3><a href="single-blog.html">Myra Hindley and her lover, Ian Brady, plotted and</a></h3>
+                                <h3><a href="#">Myra Hindley and her lover, Ian Brady, plotted and</a></h3>
                                 <p>This is a big project of our company, we are happy to completed this type projec which are
                                     get world famous award</p>
-                                <a href="single-blog.html" class="btn btn-brand">More</a>
+                                <a href="#" class="btn btn-brand">More</a>
                             </div>
                         </article>
                     </div>
@@ -773,7 +773,7 @@
                                     <img src="{{ asset('frontend/assets/images/blog/blog-3.jpg') }}" alt="Blog" class="img-fluid" />
                                 </div>
                                 <figcaption class="blog-meta clearfix">
-                                    <a href="single-blog.html" class="author">
+                                    <a href="#" class="author">
                                         <div class="author-pic">
                                             <img src="{{ asset('frontend/assets/images/blog/author.jpg') }}" alt="Author">
                                         </div>
@@ -790,11 +790,11 @@
                             </figure>
 
                             <div class="blog-content">
-                                <h3><a href="single-blog.html">Nurse with a private practice, racked up dozens of victims</a>
+                                <h3><a href="#">Nurse with a private practice, racked up dozens of victims</a>
                                 </h3>
                                 <p>This is a big project of our company, we are happy to completed this type projec which are
                                     get world famous award</p>
-                                <a href="single-blog.html" class="btn btn-brand">More</a>
+                                <a href="#" class="btn btn-brand">More</a>
                             </div>
                         </article>
                     </div>
