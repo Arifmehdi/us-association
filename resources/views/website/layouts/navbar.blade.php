@@ -11,8 +11,8 @@
 
                 <div class="col-lg-6 col-sm-5 col-5 text-end">
                     <div class="preheader-right">
-                        <a title="Login" class="btn-auth btn-auth-rev" href="register.html">Login</a>
-                        <a title="Register" class="btn-auth btn-auth" href="register.html">Signup</a>
+                        <a title="Login" class="btn-auth btn-auth-rev" href="{{route('login')}}">Login</a>
+                        <a title="Register" class="btn-auth btn-auth" href="{{ route('register')}}">Signup</a>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,8 @@
                         </li>
                         <li><a href="{{ route('about') }}">About</a></li>
                         <li><a href="{{ route('event') }}">Expo</a></li>
-                        <li><a href="{{ route('sponsorship') }}">Sponsorship</a></li>
+                        {{-- <li><a href="{{ route('sponsorship') }}">Sponsorship</a></li> --}}
+                        <li><a href="#">Sponsorship</a></li>
                         <li><a href="{{ route('membership') }}">Membership</a></li>
                         <li><a href="{{ route('gallery') }}">Gallery</a></li>
                         <li><a href="{{ route('blog') }}">Blog</a></li>

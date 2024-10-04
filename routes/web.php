@@ -27,3 +27,7 @@ Route::get('/blog',[HomeController::class,'blog'])->name('blog');
 Route::get('/sponsorship',[HomeController::class,'sponsorship'])->name('sponsorship');
 Route::get('/membership',[HomeController::class,'membership'])->name('membership');
 Route::get('/contact',[HomeController::class,'contact'])->name('contact');
+
+Route::get('/login',[HomeController::class,'login'])->name('login');
+Route::get('/register',[HomeController::class,'register'])->name('register');
+Route::get('/reset',[HomeController::class,'reset'])->name('reset');
