@@ -5,7 +5,8 @@
                 <div class="col-lg-6 col-sm-7 col-7">
                     <div class="preheader-left">
                         <a href="mailto:vishalpatel@aasoaal.com"><strong>Email:</strong> vishalpatel@aasoaal.com</a>
-                        <a href="callto:+1 251-776-3546"><strong>Hotline:</strong>+1 251-776-3546</a>
+                        <a href="callto:251-776-3546"><strong>Contact: </strong>251-776-3546</a>
+                        <a href="https://www.facebook.com/aasoaalabama" target="_blank"><i class="fab fa-facebook-f" ></i> <span> Facebook</span></a>
                     </div>
                 </div>
 
@@ -55,7 +56,7 @@
                             <a href="{{ route('home') }}">Home</a>
                         </li>
                         <li><a href="{{ route('about') }}">About</a></li>
-                        <li><a href="{{ route('event') }}">Expo</a></li>
+                        <li><a href="{{ route('expo') }}">Expo</a></li>
                         {{-- <li><a href="{{ route('sponsorship') }}">Sponsorship</a></li> --}}
                         <li><a href="#">Sponsorship</a></li>
                         <li><a href="{{ route('membership') }}">Membership</a></li>

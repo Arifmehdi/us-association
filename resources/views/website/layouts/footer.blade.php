@@ -15,6 +15,8 @@
                                 <a href="callto:+1 251-776-3546">Phone: +1 251-776-3546</a>
                                 {{-- <a href="#">Fax: +88474 156 362</a> <br /> --}}
                                 <a href="mailto:vishalpatel@aasoaal.com">Email: vishalpatel@aasoaal.com</a>
+                                <br>
+                                <a href="https://www.facebook.com/aasoaalabama" target="_blank"><i class="fab fa-facebook-f" ></i> <span> Facebook</span></a>
                             </div>
                         </div>
                     </div>
@@ -29,7 +31,7 @@
                             <ul class="double-list footer-list clearfix">
                                 <li><a href="#">Mission</a></li>
                                 <li><a href="#">Chairman Message</a></li>
-                                <li><a href="{{ route('event') }}">Expo</a></li>
+                                <li><a href="{{ route('expo') }}">Expo</a></li>
                                 <li><a href="#">Sponsor</a></li>
                                 <li><a href="{{ route('membership') }}">Membership</a></li>
                                 <li><a href="#">Pricing Plan</a></li>

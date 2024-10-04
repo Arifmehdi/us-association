@@ -86,7 +86,7 @@
                                                         <p>Date: December 9th and 10th 2017</p>
                                                         <p>Time: 10am to 5pm</p>
                                                         <p>Venue: Emerald Coast Convention Center, Ft. Walton Beach, FL.</p>
-                                                        <a href="#" class="btn btn-brand btn-brand-dark">Know More</a>
+                                                        <a href="#" class="btn btn-brand btn-brand-dark">Show More</a>
                                                     </div>
                                                 </div>
                                             </div>

@@ -8,7 +8,7 @@
         <section id="slider-area">
             <div class="slider-active-wrap owl-carousel text-center text-md-start">
 
-                <div class="single-slide-wrap slide-bg-1">
+                <div class="single-slide-wrap slide-bg-1" style="width: 100%; height: auto;">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-9">
@@ -28,7 +28,7 @@
                     </div>
                 </div>
 
-                <div class="single-slide-wrap slide-bg-2">
+                <div class="single-slide-wrap slide-bg-2" style="width: 100%; height: auto;">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-9">
@@ -48,7 +48,7 @@
                     </div>
                 </div>
 
-                <div class="single-slide-wrap slide-bg-3">
+                <div class="single-slide-wrap slide-bg-3" style="width: 100%; height: auto;">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-9">
@@ -70,14 +70,14 @@
 
             </div>
 
-            <div class="social-networks-icon">
+           {{-- <div class="social-networks-icon">
                 <ul>
                     <li><a href="#"><i class="fab fa-facebook-f"></i> <span>7.2k Likes</span></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i> <span>3.2m Followers</span></a></li>
                     <li><a href="#"><i class="fab fa-pinterest"></i> <span>7.2k Likes</span></a></li>
                     <li><a href="#"><i class="fab fa-youtube"></i> <span>2.2k Subscribers</span></a></li>
                 </ul>
-            </div>
+            </div>--}}
 
         </section>
 
@@ -303,7 +303,7 @@
                                 <li><a href="#"><u>Show Details</u></a> </li>
                                 <br>
                             </ul>
-                            <a href="{{ route('event') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
+                            <a href="{{ route('expo') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
                         </div>
                     </div>
                     <!--== Single Responsibility End ==-->
@@ -828,6 +828,7 @@
                 </div>
             </div>
 
+
             <div class="row">
                 <div class="col-lg-12">
                     <div class="people-to-say-wrapper owl-carousel">
@@ -841,7 +842,7 @@
                                 From seeing the way they provide unbiased and honest recommendations to their members on all types of business needs to be able to solidify my position as a
                                 preferred vendor – the board members have shown nothing but absolute professionalism.  Knowing how much they strive to provide the best
                                 pportunities for their members has given me complete faith and confidence in their association and I love working with them. "</p>
-                            <h4>Crista Backo <span class="people-deg">Las Vegas, NV</span></h4>
+                            <h4>New Member <span class="people-deg">Mobile, AL</span></h4>
                         </div>
                         <!-- Single People Testimonial -->
 
@@ -857,7 +858,7 @@
                                 The organization is a great market place for both vendor and store owner.  Bringing together best practices with like minded individuals that want the best for their customers. 
                                 It is truly an honor to work you and we look forward to many more years of providing great service and customer loyalty while building both of our brands. "</p>
 
-                                <h4>Richard Medford<span class="people-deg">Richmond, VA</span></h4>
+                                <h4>New Member<span class="people-deg">Mobile, AL</span></h4>
                         </div>
                         <!-- Single People Testimonial -->
                         <!-- Single People Testimonial -->
@@ -870,7 +871,7 @@
                                 From seeing the way they provide unbiased and honest recommendations to their members on all types of business needs to be able to solidify my position as a
                                 preferred vendor – the board members have shown nothing but absolute professionalism.  Knowing how much they strive to provide the best
                                 pportunities for their members has given me complete faith and confidence in their association and I love working with them. "</p>
-                            <h4>Crista Backo <span class="people-deg">Las Vegas, NV</span></h4>
+                            <h4>New Member <span class="people-deg">Mobile, AL</span></h4>
                         </div>
                         <!-- Single People Testimonial -->
 
@@ -884,7 +885,7 @@
                                 In our numerous years of working with companies and individual owners, we have found the absolute best experience comes from AASOA. 
                                 The organization is a great market place for both vendor and store owner.  Bringing together best practices with like minded individuals that want the best for their customers. 
                                 It is truly an honor to work you and we look forward to many more years of providing great service and customer loyalty while building both of our brands. "</p>
-                                <h4>Richard Medford<span class="people-deg">Richmond, VA</span></h4>
+                                <h4>New Member<span class="people-deg">Mobile, AL</span></h4>
                         </div>
                         <!-- Single People Testimonial -->
 
