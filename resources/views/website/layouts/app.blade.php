@@ -13,19 +13,19 @@
     <meta name="twitter:site" content="@yourtwitterusername" />
     <meta name="twitter:creator" content="@yourtwitterusername" />
     <meta name="twitter:url" content="http://twitter.com/" />
-    <meta name="twitter:title" content="Your home page title, max 140 char" />
+    <meta name="twitter:title" content="AASOA - Alabama" />
     <!-- maximum 140 char -->
-    <meta name="twitter:description" content="Your site description, maximum 140 char " />
+    <meta name="twitter:description" content="AASOA - Alabama is a assocciation for growth" />
     <!-- maximum 140 char -->
     <meta name="twitter:image" content="{{ asset('frontend/assets/images/twittercardimg/twittercard-144-144.png') }}" />
     <!-- when you post this page url in twitter , this image will be shown -->
     <!-- twitter card ends here -->
 
     <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
-    <meta property="og:title" content="Your home page title" />
+    <meta property="og:title" content="AASOA ALABAMA" />
     <meta property="og:url" content="http://your domain here.com" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="Your site name here" />
+    <meta property="og:site_name" content="AASOA ALABAMA" />
     <!--meta property="fb:admins" content="" /-->
     <!-- use this if you have  -->
     <meta property="og:type" content="website" />
@@ -44,7 +44,7 @@
     <!-- this icon shows in browser toolbar -->
     <link rel="icon" type="image/x-icon" href="{{ asset('frontend/assets/images/favicon/favicon.ico') }}" />
     <!-- this icon shows in browser toolbar -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('frontend/assets/images/favicon/apple-icon-57x57.png') }}" />
+    {{-- <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('frontend/assets/images/favicon/apple-icon-57x57.png') }}" />
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('frontend/assets/images/favicon/apple-icon-60x60.png') }}" />
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('frontend/assets/images/favicon/apple-icon-72x72.png') }}" />
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('frontend/assets/images/favicon/apple-icon-76x76.png') }}" />
@@ -56,7 +56,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('frontend/assets/images/favicon/android-icon-192x192.png') }}" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('frontend/assets/images/favicon/favicon-32x32.png') }}" />
     <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('frontend/assets/images/favicon/favicon-96x96.png') }}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('frontend/assets/images/favicon/favicon-16x16.png') }}" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('frontend/assets/images/favicon/favicon-16x16.png') }}" /> --}}
 
 
     <!-- Dependency Styles -->

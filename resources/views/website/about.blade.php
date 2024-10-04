@@ -89,7 +89,7 @@
         <!--=========================-->
         <!--=         Fun fact        =-->
         <!--==========================-->
-        <section id="funfact-area">
+        {{-- <section id="funfact-area">
             <div class="container-fluid">
                 <div class="row text-center">
                     <!--== Single FunFact Start ==-->
@@ -149,12 +149,12 @@
                     <!--== Single FunFact End ==-->
                 </div>
             </div>
-        </section>
+        </section>--}}
 
         <!--===========================-->
         <!--=         Committee       =-->
         <!--===========================-->
-        <section class="our-honorable-commitee section-padding">
+                {{--<section class="our-honorable-commitee section-padding">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -240,12 +240,12 @@
                     </div>
                 </div>
             </div>
-    </div>
+    </div> --}}
 
     <!--=============================-->
     <!--=         Testimonial       =-->
     <!--=============================-->
-    <section class="people-to-say section-padding">
+    {{-- <section class="people-to-say section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -313,5 +313,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection
