@@ -13,15 +13,15 @@
                         <div class="row">
                             <div class="col-lg-9">
                                 <div class="slider-content">
-                                    <h2>We Are Proud</h2>
+                                    {{-- <h2>We Are Proud</h2>
                                     <h3>Member of <span>AASAO</span></h3>
                                     <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                         need (academic, relocation, career, projects, mentorship, etc. you can ask the community
-                                        and get responses in three.</p>
-                                    <div class="slider-btn">
+                                        and get responses in three.</p> --}}
+                                    {{-- <div class="slider-btn">
                                         <a href="#about-area" class="btn btn-brand smooth-scroll">our mission</a>
                                         <a href="#" class="btn btn-brand-rev">our story</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                         <div class="row">
                             <div class="col-lg-9">
                                 <div class="slider-content">
-                                    <h2>We Are Not Proud</h2>
+                                    {{-- <h2>We Are Not Proud</h2>
                                     <h3>Member of <span>AASAO</span></h3>
                                     <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                         need (academic, relocation, career, projects, mentorship, etc. you can ask the community
@@ -41,7 +41,7 @@
                                     <div class="slider-btn">
                                         <a href="#" class="btn btn-brand">our mission</a>
                                         <a href="#" class="btn btn-brand-rev">our story</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -53,7 +53,7 @@
                         <div class="row">
                             <div class="col-lg-9">
                                 <div class="slider-content">
-                                    <h2>Why Proud for u</h2>
+                                    {{-- <h2>Why Proud for u</h2>
                                     <h3>Member of <span>AASAO</span></h3>
                                     <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                         need (academic, relocation, career, projects, mentorship, etc. you can ask the community
@@ -61,7 +61,7 @@
                                     <div class="slider-btn">
                                         <a href="#" class="btn btn-brand">our mission</a>
                                         <a href="#" class="btn btn-brand-rev">our story</a>
-                                    </div>
+                                    </div> --}}
                                 </div>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
         <!--=================================-->
         <!--=         Upcoming Event        =-->
         <!--=================================-->
-        <section id="upcoming-area">
+        {{-- <section id="upcoming-area">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -201,7 +201,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!--=========================-->
         <!--=         About         =-->
@@ -226,7 +226,7 @@
                                 {{-- <p>There are many company Lorem ipsm dolor sitg amet, csetur adipicing elit, sed do eiusmod
                                     tempor dncint ut labore et dolore magna alis enim ad minim veniam, quis nostrud exercitation
                                     ullamco.</p> --}}
-                                <a href="#" class="btn btn-brand about-btn">know more</a>
+                                <a href="#" class="btn btn-brand about-btn">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -235,9 +235,120 @@
         </section>
 
         <!--=================================-->
+        <!--=         See For        =-->
+        <!--=================================-->
+
+
+        <!--= Responsibility Section with 6 Cards =-->
+        <section id="responsibility-area" class="section-padding">
+            <div class="container">
+                {{-- <!--== Section Title Start ==-->
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="section-title">
+                            <h2>See For</h2>
+                        </div>
+                    </div>
+                </div>
+                <!--== Section Title End ==--> --}}
+
+                <!--== Responsibility Content Wrapper ==-->
+                <div class="row text-center text-sm-left">
+                    <!--== Single Responsibility Start ==-->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="single-responsibility" style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img src="{{ asset('frontend/assets/images/responsibility/01.png') }}" alt="Responsibility" style="max-width: 100%; height: auto;">
+                            <h4>About US</h4>
+                            <p>AASOA offers opportunities for retailers as well as suppliers to come together
+                                and strengthen business relationships. By continually striving to develop benefits for our members through our Preferred</p>
+                                <a href="{{ route('about') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
+
+                        </div>
+                    </div>
+                    <!--== Single Responsibility End ==-->
+
+                    <!--== Single Responsibility Start ==-->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="single-responsibility" style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img src="{{ asset('frontend/assets/images/responsibility/02.png') }}" alt="Responsibility" style="max-width: 100%; height: auto;">
+                            <h4>Membership</h4>
+                            <p>Retail Membership Supplier Membership AASOA membership is open to all store owners of gas stations,
+                                convenience stores and liquor stores. Whether you are an independent owner or part of a large</p>
+                                <a href="{{ route('membership') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
+
+                        </div>
+                    </div>
+                    <!--== Single Responsibility End ==-->
+
+                    <!--== Single Responsibility Start ==-->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="single-responsibility" style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img src="{{ asset('frontend/assets/images/responsibility/03.png') }}" alt="Responsibility" style="max-width: 100%; height: auto;">
+                            <h4>Mission</h4>
+                            <p>To constantly strive to meet or exceed our customer needs and expectations of price, service,
+                                and selection. To this end, we will perform periodic reviews of the marketplace to improve our offerings.</p>
+                            <button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button>
+                        </div>
+                    </div>
+                    <!--== Single Responsibility End ==-->
+
+                    <!--== Single Responsibility Start ==-->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="single-responsibility" style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img src="{{ asset('frontend/assets/images/responsibility/04.png') }}" alt="Responsibility" style="max-width: 100%; height: auto;">
+                            <h4>Expo</h4>
+                            <ul>
+                                <li>Dec 9, 2017 - Dec 10, 2017</li>
+                                <li>Emerald Coast Convention Center, Ft. Walton Beach, FL. Exhibit Hall A </li>
+                                <li><a href="#"><u>Show Details</u></a> </li>
+                                <br>
+                            </ul>
+                            <a href="{{ route('event') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
+                        </div>
+                    </div>
+                    <!--== Single Responsibility End ==-->
+
+                    <!--== Single Responsibility Start ==-->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="single-responsibility" style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img src="{{ asset('frontend/assets/images/responsibility/03.png') }}" alt="Responsibility" style="max-width: 100%; height: auto;">
+                            <h4>Sponsor</h4>
+                                <ul>
+                                    <li>Rino Air</li>
+                                    <li>DTT</li>
+                                    <li>Anryd Enterprises</li>
+                                    <br>
+                                    <br>
+                                </ul>
+                                <a href="#"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
+
+                        </div>
+                    </div>
+                    <!--== Single Responsibility End ==-->
+
+                    <!--== Single Responsibility Start ==-->
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="single-responsibility" style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                            <img src="{{ asset('frontend/assets/images/responsibility/02.png') }}" alt="Responsibility" style="max-width: 100%; height: auto;">
+                            <h4>Blogs</h4>
+                            <p>To constantly strive to meet or exceed our customer needs and expectations of price,
+                                service, and selection. To this end, we will perform periodic reviews of the marketplace to improve our offerings.</p>
+                                <a href="{{ route('blog') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
+                        </div>
+                    </div>
+                    <!--== Single Responsibility End ==-->
+                </div>
+                <!--== Responsibility Content Wrapper ==-->
+            </div>
+        </section>
+
+
+
+
+        <!--=================================-->
         <!--=         Responsibility        =-->
         <!--=================================-->
-        <section id="responsibility-area" class="section-padding">
+        {{-- <section id="responsibility-area" class="section-padding">
             <div class="container">
                 <!--== Section Title Start ==-->
                 <div class="row">
@@ -293,12 +404,12 @@
                 </div>
                 <!--== Responsibility Content Wrapper ==-->
             </div>
-        </section>
+        </section> --}}
 
         <!--================================-->
         <!--=         Fun Fact        =-->
         <!--================================-->
-        <section id="funfact-area">
+        {{-- <section id="funfact-area">
             <div class="container-fluid">
                 <div class="row text-center">
                     <!--== Single FunFact Start ==-->
@@ -358,7 +469,7 @@
                     <!--== Single FunFact End ==-->
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <!--======================-->
         <!--=         Job        =-->
@@ -508,7 +619,7 @@
                 <!--== Job opportunity Wrapper ==-->
             </div>
         </section> --}}
-
+{{--
         <!--==========================-->
         <!--=         Gallery        =-->
         <!--==========================-->
@@ -677,9 +788,114 @@
                 </div>
             </div>
         </section>
-        <!--== Scholership Promo Area End ==-->
+        <!--== Scholership Promo Area End ==--> --}}
 
-        <!--=======================-->
+
+
+    <!--=============================-->
+    <!--=         jjj        =-->
+    <!--=============================-->
+
+
+    <div id="page-content-wrap">
+        <div class="typography-page-wrapper section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <article>
+
+                            <h2>AASOA Chairman's message</h2>
+                            <img src="{{ asset('frontend/assets/images/about-page/about-img-1.jpg') }}" alt="Image" class="img-left img-fluid" />
+                            <p>Allow me to thank you for giving me the opportunity to serve as a Trustee Chairman of one of the most vibrant organizations in Alabama.
+                                I will do my best to achieve the goals established by Asian American Store Owners Association with support from the executive committee and
+                                advisory board members.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=============================-->
+    <!--=         Testimonial       =-->
+    <!--=============================-->
+    <section class="people-to-say section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="about-page-area-title">
+                        <h2>Testimonial</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="people-to-say-wrapper owl-carousel">
+                        <!-- Single People Testimonial -->
+                        <div class="single-testimonial-wrap">
+                            <div class="people-thumb">
+                                <img src="{{ asset('frontend/assets/images/testimonial/testi-1.png') }}" alt="Alumni" class="img-fluid" />
+                            </div>
+                            <i class="quote-icon"></i>
+                            <p>"I’ve been working with AASOA for years now and cannot give enough positive feedback on my experience with them. 
+                                From seeing the way they provide unbiased and honest recommendations to their members on all types of business needs to be able to solidify my position as a
+                                preferred vendor – the board members have shown nothing but absolute professionalism.  Knowing how much they strive to provide the best
+                                pportunities for their members has given me complete faith and confidence in their association and I love working with them. "</p>
+                            <h4>Crista Backo <span class="people-deg">Las Vegas, NV</span></h4>
+                        </div>
+                        <!-- Single People Testimonial -->
+
+                        <!-- Single People Testimonial -->
+                        <div class="single-testimonial-wrap">
+                            <div class="people-thumb">
+                                <img src="{{ asset('frontend/assets/images/testimonial/testi-1.png') }}" alt="" class="img-fluid">
+                            </div>
+                            <i class="quote-icon"></i>
+
+                                <p>"I could not imagine a better association to work with than AASOA. 
+                                In our numerous years of working with companies and individual owners, we have found the absolute best experience comes from AASOA. 
+                                The organization is a great market place for both vendor and store owner.  Bringing together best practices with like minded individuals that want the best for their customers. 
+                                It is truly an honor to work you and we look forward to many more years of providing great service and customer loyalty while building both of our brands. "</p>
+
+                                <h4>Richard Medford<span class="people-deg">Richmond, VA</span></h4>
+                        </div>
+                        <!-- Single People Testimonial -->
+                        <!-- Single People Testimonial -->
+                        <div class="single-testimonial-wrap">
+                            <div class="people-thumb">
+                                <img src="{{ asset('frontend/assets/images/testimonial/testi-1.png') }}" alt="Alumni" class="img-fluid" />
+                            </div>
+                            <i class="quote-icon"></i>
+                            <p>"I’ve been working with AASOA for years now and cannot give enough positive feedback on my experience with them. 
+                                From seeing the way they provide unbiased and honest recommendations to their members on all types of business needs to be able to solidify my position as a
+                                preferred vendor – the board members have shown nothing but absolute professionalism.  Knowing how much they strive to provide the best
+                                pportunities for their members has given me complete faith and confidence in their association and I love working with them. "</p>
+                            <h4>Crista Backo <span class="people-deg">Las Vegas, NV</span></h4>
+                        </div>
+                        <!-- Single People Testimonial -->
+
+                        <!-- Single People Testimonial -->
+                        <div class="single-testimonial-wrap">
+                            <div class="people-thumb">
+                                <img src="{{ asset('frontend/assets/images/testimonial/testi-1.png') }}" alt="" class="img-fluid">
+                            </div>
+                            <i class="quote-icon"></i>
+                            <p>"I could not imagine a better association to work with than AASOA. 
+                                In our numerous years of working with companies and individual owners, we have found the absolute best experience comes from AASOA. 
+                                The organization is a great market place for both vendor and store owner.  Bringing together best practices with like minded individuals that want the best for their customers. 
+                                It is truly an honor to work you and we look forward to many more years of providing great service and customer loyalty while building both of our brands. "</p>
+                                <h4>Richard Medford<span class="people-deg">Richmond, VA</span></h4>
+                        </div>
+                        <!-- Single People Testimonial -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+        {{-- <!--=======================-->
         <!--=         Blog        =-->
         <!--=======================-->
         <section id="blog-area" class="section-padding">
@@ -801,6 +1017,6 @@
                 </div>
                 <!--== Blog Content Wrapper ==-->
             </div>
-        </section>
+        </section> --}}
 
 @endsection

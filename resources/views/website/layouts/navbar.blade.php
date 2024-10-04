@@ -4,8 +4,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-7 col-7">
                     <div class="preheader-left">
-                        <a href="mailto:aasoa@mail.com"><strong>Email:</strong> aasoa@mail.com</a>
-                        <a href="#"><strong>Hotline:</strong>+1 251-776-3546</a>
+                        <a href="mailto:vishalpatel@aasoaal.com"><strong>Email:</strong> vishalpatel@aasoaal.com</a>
+                        <a href="callto:+1 251-776-3546"><strong>Hotline:</strong>+1 251-776-3546</a>
                     </div>
                 </div>
 

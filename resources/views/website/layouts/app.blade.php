@@ -36,7 +36,7 @@
 
     <!-- desktop bookmark -->
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta name="msapplication-TileImage" content="{{ asset('frontend/assets/images/favicon/ms-icon-144x144.png') }}" />
+    <meta name="msapplication-TileImage" content="{{ asset('frontend/assets/images/favicon/favicon.ico') }}" />
     <meta name="theme-color" content="#ffffff" />
 
     <!-- icons & favicons -->
@@ -65,6 +65,10 @@
     <link id="cbx-style" rel="stylesheet" href="{{ asset('frontend/assets/css/style-default.css') }}" type="text/css" />
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet" />
+
+
+
+
 </head>
 
 <body id="home-v1" class="home-page-one" data-style="default">
@@ -95,7 +99,7 @@
     <!-- Dependency Scripts -->
     <script id="script-bundle" src="{{ asset('frontend/assets/vendors/js/bundle.js') }}"></script>
 
-    <script id="color-switcher" src="{{ asset('frontend/assets/js/switcher.js') }}"></script>
+    {{-- <script id="color-switcher" src="{{ asset('frontend/assets/js/switcher.js') }}"></script> --}}
     <!-- Site Scripts -->
     <script src="{{ asset('frontend/assets/js/app.js') }}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/min.js/0.1.0/$.min.js" integrity="sha512-Vk32j+kJ1fSJgeHkuFGOv/yUCplzmJnxxEq4MYkahPvFz6Yc98N616M8XG+mMIz43WGTaAhRloa643yBES75Ww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

@@ -28,24 +28,13 @@
                     <div class="row">
                         <div class="col-lg-11 m-auto">
                             <!-- Single about text start -->
-                            <div class="single-about-text">
-                                <span class="year">1900</span>
-                                <img src="{{ asset('frontend/assets/images/about-page/about-img-1.jpg') }}" alt="About" class="img-fluid img-left">
-                                <h2 class="h3">ESTD of This AASAO Assotitation</h2>
-                                <p>Aenean viverra rhoncus sspede. Phasellssus leo dolor, tempus non, auctor endrerit
-                                    quis, nisi. Fusce neque. Donec vitae orci sed dolor rutrum ausssctor. Sed
-                                    fringilla mauris sit amet nibh.</p>
-                                <p>Etiam rhoncus. Ut lddffdfqwqeo. Morbi mollis tellus ac sapien. Fusce fermentum oo
-                                    nec arcu. Quisque manisl idUt leo. Morbi mollis tellus ac sapien. Fusce
-                                    fermentum oo nec ante tempus hendrerit. Curabitur at lacus ac velit ornare
-                                    lobortis. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                                    turpis. Quisque id mi.Aenean viverra rhoncus pede. Phasellus leo dolor, tempus non, auctor
-                                    endrerit quis, nisi.
-                                    Fusce neque. Donec vitae orci sed dolor rutrum auctor. Sed fringilla mauris sit amet
-                                    nibh.Etiam rhoncus. Ut leo. Morbi mollis tellus ac sapien. Fusce fermentum oo nec arcu.
-                                    Quisque malesuada placerat nisl. Etiam sit amet orci eget faucitincidunt. Quisque
-                                    rutrum. Pellentesque posuere. Praesent ac massa at ligula laoureet iaculis. Cras risus
-                                    ipsum, faucibus ut, ullamcorper id, varius ac, leo.</p>
+                            <div class="single-about-text" >
+                                {{-- <span class="year">1900</span> --}}
+                                <img src="{{ asset('frontend/assets/images/about-page/about-img-1.jpg') }}" alt="About" class="img-fluid img-left" style="-webkit-filter:grayscale(0);filter:grayscale(0)">
+                                <h2 class="h3">AASOA Chairman's message</h2>
+                                <p>Allow me to thank you for giving me the opportunity to serve as a Trustee Chairman of one of the most vibrant organizations in Alabama.</p>
+                                <p>will do my best to achieve the goals established by Asian American Store Owners Association with support from the executive committee
+                                    and advisory board members.</p>
                             </div>
                             <!-- Single about text End -->
 

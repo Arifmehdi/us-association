@@ -96,7 +96,7 @@
                                 <!-- Single Event End -->
 
                                 <!-- Single Event Start -->
-                                <div class="single-upcoming-event">
+                                {{-- <div class="single-upcoming-event">
                                     <div class="row">
                                         <div class="col-lg-5">
                                             <div class="up-event-thumb">
@@ -132,11 +132,11 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <!-- Single Event End -->
 
                                 <!-- Single Event Start -->
-                                <div class="single-upcoming-event">
+                                {{-- <div class="single-upcoming-event">
                                     <div class="row">
                                         <div class="col-lg-5">
                                             <div class="up-event-thumb">
@@ -172,7 +172,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> --}}
                                 <!-- Single Event End -->
 
                                 {{-- <!-- Single Event Start -->
