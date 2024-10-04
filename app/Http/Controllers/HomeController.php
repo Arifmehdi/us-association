@@ -31,6 +31,11 @@ class HomeController extends Controller
         return view('website.membership');
     }
 
+    public function vendor()
+    {
+        return view('website.vendor');
+    }
+
     public function contact()
     {
         return view('website.contact');
@@ -50,6 +55,9 @@ class HomeController extends Controller
     {
         return view('website.auth.login');
     }
+
+
+
 
     public function register()
     {

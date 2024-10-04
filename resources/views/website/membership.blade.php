@@ -60,24 +60,17 @@
                                                             <div class="row">
 
                                                                 <div class="row">
-                                                                    <div class="col-12 col-sm-12">
+                                                                    <div class="col-12 col-sm-6">
                                                                         <div class="form-group">
-                                                                            <label for="register_name">Company Name <strong class="text-danger">*</strong></label>
-                                                                            <input type="text" class="form-control" id="register_name" name="register_name" />
+                                                                            <label for="register_name">Name</label>
+                                                                            <input type="text" class="form-control" id="register_name" name="register_name" placeholder="John Smith"/>
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="col-12 col-sm-6">
                                                                         <div class="form-group">
-                                                                            <label for="register_password">Contact Name <strong class="text-danger">*</strong></label>
-                                                                            <input type="text" class="form-control" id="register_password" name="register_password"  placeholder="First"/>
-                                                                        </div>
-                                                                    </div>
-
-                                                                    <div class="col-12 col-sm-6">
-                                                                        <div class="form-group">
-                                                                            <label for="register_password"></label>
-                                                                            <input type="text" class="form-control" id="register_password" name="register_password"  placeholder="Last"/>
+                                                                            <label for="register_password">DBA</label>
+                                                                            <input type="text" class="form-control" id="register_password" name="register_password" />
                                                                         </div>
                                                                     </div>
 
@@ -85,64 +78,131 @@
 
                                                                     <div class="col-12 col-sm-12">
                                                                         <div class="form-group">
-                                                                            <label for="register_deptno">Contact E-mail <strong class="text-danger">*</strong></label>
+                                                                            <label for="register_deptno">E-mail <strong class="text-danger">*</strong></label>
                                                                             <input type="text" class="form-control" id="register_deptno" name="register_deptno" />
                                                                         </div>
-                                                                        {{-- A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail. --}}
+                                                                        A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail.
                                                                     </div>
 
                                                                 <div class="col-12 col-sm-12">
                                                                     <div class="form-group">
-                                                                        <label for="register_password">Contact Mailing Address <strong class="text-danger">*</strong></label>
-                                                                        <input type="text" class="form-control" id="register_password" name="register_password" />
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="row">
-                                                                <div class="col-12 col-sm-12">
-                                                                    <div class="form-group">
-                                                                        <label for="register_year">City<strong class="text-danger">*</strong></label>
-                                                                        <input type="text" class="form-control" id="register_year" name="register_year" />
-                                                                    </div>
-                                                                </div>
-
-                                                                <div class="col-12 col-sm-12">
-                                                                    <div class="form-group">
-                                                                        <label for="register_deptno">State<strong class="text-danger">*</strong></label>
-                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" />
+                                                                        <label for="register_password">Address</label>
+                                                                        <input type="text" class="form-control" id="register_password" name="register_password" placeholder="20 Wellington ST. E"/>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
                                                             <div class="row">
-                                                                <div class="col-12 col-sm-12">
+                                                                <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
-                                                                        <label for="register_year">Zip Code<strong class="text-danger">*</strong></label>
-                                                                        <input type="number" class="form-control" id="register_year" name="register_year" />
+                                                                        <label for="register_year">City</label>
+                                                                        <input type="text" class="form-control" id="register_year" name="register_year" placeholder="Richmond"/>
                                                                     </div>
                                                                 </div>
 
-                                                                <div class="col-12 col-sm-12">
+                                                                <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
-                                                                        <label for="register_email">Phone Number<strong class="text-danger">*</strong></label>
-                                                                        <input type="number" class="form-control" id="register_email" name="register_email" />
+                                                                        <label for="register_deptno">State</label>
+                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" placeholder="Virginia"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="register_year">Zip Code</label>
+                                                                        <input type="text" class="form-control" id="register_year" name="register_year" placeholder="23263"/>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="register_email">Company Name</label>
+                                                                        <input type="email" class="form-control" id="register_email" name="register_email" placeholder="Type Your Company Name"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="register_year">Store Phone</label>
+                                                                        <input type="text" class="form-control" id="register_year" name="register_year" placeholder="(123) 123-1234"/>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="register_deptno">Store Fax</label>
+                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" placeholder="(123) 123-1234"/>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="register_year">Cell Phone </label>
+                                                                        <input type="text" class="form-control" id="register_year" name="register_year" placeholder="(123) 123-1234"/>
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="register_deptno">Cell Phone Carrier</label>
+                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" placeholder="Eg: AT&T/Vodafone"/>
                                                                     </div>
                                                                 </div>
                                                             </div>
 
                                                             <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
-                                                                        <label for="register_stuid">Do you required Electricity? <strong class="text-danger">*</strong></label><br>
+                                                                        <label for="register_stuid">Business Type</label><br>
                                                                         <input type="checkbox" class="custom-control-input" id="customCheck1"> C Store <br>
                                                                         <input type="checkbox" class="custom-control-input" id="customCheck1"> Gas Station <br>
+                                                                        <input type="checkbox" class="custom-control-input" id="customCheck1"> Liqour Store <br>
+                                                                        <input type="checkbox" class="custom-control-input" id="customCheck1"> Others <br>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 col-sm-6">
+                                                                    <div class="form-group">
+                                                                        <label for="register_stuid">Number Of Stores </label><br>
+                                                                        <select name="" id="">
+                                                                            <option value="">None</option>
+                                                                            <option value="">Provide Later </option>
+                                                                            <option value="">1</option>
+                                                                            <option value="">2</option>
+                                                                            <option value="">3</option>
+                                                                            <option value="">4</option>
+                                                                            <option value="">5</option>
+                                                                            <option value="">6</option>
+                                                                            <option value="">7</option>
+                                                                            <option value="">8</option>
+                                                                            <option value="">9</option>
+                                                                            <option value="">10</option>
+                                                                        </select>
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                            {{-- <div class="form-group file-input">
+                                                                <input type="file" name="register_file" id="customfile" class="d-none" />
+                                                                <label class="custom-file" for="customfile"><i class="fa fa-upload"></i>Upload Your Photo</label>
+                                                            </div> --}}
+
+                                                           {{-- <div class="gender form-group">
+                                                                <label class="g-name d-block">Gender</label>
+                                                                <div class="custom-control custom-radio custom-control-inline">
+                                                                    <input type="radio" id="register_gender_male" name="register_gender" value="mail" class="custom-control-input" />
+                                                                    <label class="custom-control-label" for="register_gender_male">Male</label>
+                                                                </div>
+                                                                <div class="custom-control custom-radio custom-control-inline">
+                                                                    <input type="radio" id="register_gender_female" name="register_gender" value="female" class="custom-control-input">
+                                                                    <label class="custom-control-label" for="register_gender_female">Female</label>
+                                                                </div>
+                                                            </div> --}}
 
                                                             <div class="form-group">
                                                                 <div class="custom-control custom-checkbox float-lg-right">
-                                                                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked>
+                                                                    <input type="checkbox" class="custom-control-input" id="customCheck1">
                                                                     <label class="custom-control-label" for="customCheck1"> I
                                                                         have read and agree to the <a href="#">AASOA Alabama</a> Terms
                                                                         of Service</label>
