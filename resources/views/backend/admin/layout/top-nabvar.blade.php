@@ -1,0 +1,17 @@
+<div class="topbar bg-primary">
+    <div class="dropdown profile-dropdown">
+        <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img src="{{ asset('backend/images/users/1.jpg') }}" class="width-40 round-img" alt="Image">
+        </a>
+        <div class="dropdown-menu">
+            <ul>
+                <li><a class="dropdown-item" href="#">My Account</a></li>
+                <li><a class="dropdown-item" href="#">Settings</a></li>
+                <li><a class="dropdown-item" href="#">Products</a></li>
+                <li><a class="dropdown-item" href="#">Downloads</a></li>
+                <li><a class="dropdown-item" href="#">My Cart</a></li>
+                <li><a class="dropdown-item" href="login.html">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

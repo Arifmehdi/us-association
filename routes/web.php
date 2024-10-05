@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Admin\SponsorController;
+use App\Http\Controllers\Admin\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +34,11 @@ Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 Route::get('/login',[HomeController::class,'login'])->name('login');
 Route::get('/register',[HomeController::class,'register'])->name('register');
 Route::get('/reset',[HomeController::class,'reset'])->name('reset');
+
+
+
+Route::prefix('admin')->as('admin.')->group(function () {
+    Route::resource('sponsors', SponsorController::class);
+    Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard');
+});
+
