@@ -69,7 +69,7 @@
                                         <div class="col-lg-5">
                                             <div class="up-event-thumb">
                                                 <img src="{{ asset('frontend/assets/images/event/event-img-1.jpg') }}" class="img-fluid" alt="Upcoming Event">
-                                                <h4 class="up-event-date">Gulf coast Expo 2017</h4>
+                                                <h4 class="up-event-date">Gulf coast Expo 2025</h4>
                                             </div>
                                         </div>
 
@@ -77,15 +77,16 @@
                                             <div class="display-table">
                                                 <div class="display-table-cell">
                                                     <div class="up-event-text">
-                                                        {{-- <div class="event-countdown">
-                                                            <div class="event-countdown-counter" data-date="2024/9/10"></div>
+                                                        <div class="event-countdown">
+                                                            <div class="event-countdown-counter" data-date="2025/6/25"></div>
                                                             <p>Remaining</p>
-                                                        </div> --}}
+                                                        </div>
                                                         <h3><a href="#">Alabama Asian American Store Owners Association and UMA</a></h3>
-                                                        <p>The Country's Fastest Growing Retail/C-store Expo</p>
+                                                        <p>2025 Gulf Coast Expo</p>
                                                         <p>Date: December 9th and 10th 2017</p>
-                                                        <p>Time: 10am to 5pm</p>
-                                                        <p>Venue: Emerald Coast Convention Center, Ft. Walton Beach, FL.</p>
+                                                        <p></p>
+                                                        {{-- <p>Time: 10am to 5pm</p> --}}
+                                                        <p>Venue: Renaissance Montgomery Hotel & Spa at the Convention Centre, Montgomery, AL.</p>
                                                         <a href="#" class="btn btn-brand btn-brand-dark">Show More</a>
                                                     </div>
                                                 </div>

@@ -8,7 +8,7 @@
         <section id="slider-area">
             <div class="slider-active-wrap owl-carousel text-center text-md-start">
 
-                <div class="single-slide-wrap slide-bg-1" style="width: 100%; height: auto;">
+                <div class="single-slide-wrap " style="width: 100%; height: auto; background-image:url({{ asset('frontend/assets/images/slider/slider-img-0.jpg') }})">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-9">
@@ -28,7 +28,28 @@
                     </div>
                 </div>
 
-                <div class="single-slide-wrap slide-bg-2" style="width: 100%; height: auto;">
+
+                <div class="single-slide-wrap " style="width: 100%; height: auto; background-image:url({{ asset('frontend/assets/images/slider/slider-img-1.jpg') }})">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="slider-content">
+                                    {{-- <h2>We Are Proud</h2>
+                                    <h3>Member of <span>AASAO</span></h3>
+                                    <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
+                                        need (academic, relocation, career, projects, mentorship, etc. you can ask the community
+                                        and get responses in three.</p> --}}
+                                    {{-- <div class="slider-btn">
+                                        <a href="#about-area" class="btn btn-brand smooth-scroll">our mission</a>
+                                        <a href="#" class="btn btn-brand-rev">our story</a>
+                                    </div> --}}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="single-slide-wrap " style="width: 100%; height: auto; background-image:url({{ asset('frontend/assets/images/slider/slider-img-2.jpg') }})">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-9">
@@ -48,7 +69,7 @@
                     </div>
                 </div>
 
-                <div class="single-slide-wrap slide-bg-3" style="width: 100%; height: auto;">
+                <div class="single-slide-wrap" style="width: 100%; height: auto; background-image:url({{ asset('frontend/assets/images/slider/slider-img-3.jpg') }})">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-9">
