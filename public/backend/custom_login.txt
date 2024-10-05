@@ -1,0 +1,38 @@
+--> 01. Create laravel project
+        composer create-project laravel/laravel
+        composer create-project laravel/laravel:^10.0
+
+--> 02. Check route has or auth
+        @if (Route::has('login'))
+            @auth
+                <a title="Login" class="btn-auth btn-auth-rev" href="{{route('login')}}">Dashboard</a>
+            @else
+                <a title="Login" class="btn-auth btn-auth-rev" href="{{route('login')}}">Login</a>
+            @endauth
+        @endif
+
+ --> 03.   Create Auth Controller
+        php artisan make:controller Auth/AuthController
+
+--> 04.  Make login, register , reset
+        Route::get('/login',[AuthController::class,'login'])->name('login');
+        Route::get('/register',[AuthController::class,'register'])->name('register');
+        Route::get('/reset',[AuthController::class,'reset'])->name('reset');
+
+
+-->  05. use session status and show message
+        <h4 class="text-center text-uppercase font-weight-bold">Login Form</h4>
+        @if (Session::has('error'))
+            <p class="text-danger">{{ Session::get('error') }}</p>
+        @endif
+        @if (Session::has('success'))
+            <p class="text-suceess">{{ Session::get('success') }}</p>
+        @endif
+
+
+-->  06. use session status and show message
+            @if ($errors->has('email'))
+                <p class="text-danger">{{ $errors->first('email')}}</p>
+            @endif
+
+--> 07.

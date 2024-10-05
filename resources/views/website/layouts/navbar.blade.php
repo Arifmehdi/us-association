@@ -12,7 +12,13 @@
 
                 <div class="col-lg-6 col-sm-5 col-5 text-end">
                     <div class="preheader-right">
-                        <a title="Login" class="btn-auth btn-auth-rev" href="{{route('login')}}">Login</a>
+                        @if (Route::has('login'))
+                            @auth
+                                <a title="Login" class="btn-auth btn-auth-rev" href="{{route('admin.dashboard')}}">Dashboard</a>
+                            @else
+                                <a title="Login" class="btn-auth btn-auth-rev" href="{{route('login')}}">Login</a>
+                            @endauth
+                        @endif
                         {{-- <a title="Register" class="btn-auth btn-auth" href="{{ route('register')}}">Signup</a> --}}
                         <a title="Vendor Register" class="btn-auth btn-auth" href="{{ route('vendor')}}">Vendor</a>
                     </div>

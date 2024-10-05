@@ -19,7 +19,7 @@
     <!--Logo Area Start-->
     <div class="logo-area">
         <div class="logo bg-primary text-white">
-            <a href="index.html">Ad<span>mira.</span></a>
+            <a href="{{ route('admin.dashboard') }}">AA<span>SAO</span></a>
         </div>
         <div class="menu-icon bg-primary text-white">
             <i class="fas fa-bars"></i>

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Admin\SponsorController;
 use App\Http\Controllers\Admin\DashboardController;
 
@@ -31,14 +32,24 @@ Route::get('/membership',[HomeController::class,'membership'])->name('membership
 Route::get('/vendor',[HomeController::class,'vendor'])->name('vendor');
 Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 
-Route::get('/login',[HomeController::class,'login'])->name('login');
-Route::get('/register',[HomeController::class,'register'])->name('register');
-Route::get('/reset',[HomeController::class,'reset'])->name('reset');
 
-
-
-Route::prefix('admin')->as('admin.')->group(function () {
-    Route::resource('sponsors', SponsorController::class);
-    Route::get('/dashboard',[DashboardController::class,'dashboard'])->name('dashboard');
+Route::group(['middleware' => 'guest'], function(){
+    Route::get('/login',[AuthController::class,'logView'])->name('login');
+    Route::post('/login',[AuthController::class,'login'])->name('login')->middleware('throttle:4,1');
+    Route::get('/register',[AuthController::class,'regView'])->name('register');
+    Route::post('/register',[AuthController::class,'register'])->name('register')->middleware('throttle:4,1');
+    Route::get('/reset',[AuthController::class,'reset'])->name('reset');
 });
 
+
+
+
+Route::group(['middleware' => 'auth'], function(){
+    Route::get('/logout', [AuthController::class, 'logout'])->name('logout');
+});
+
+
+Route::prefix('admin')->as('admin.')->middleware('auth')->group(function () {
+    Route::resource('sponsors', SponsorController::class);
+    Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
+});

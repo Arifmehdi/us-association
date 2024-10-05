@@ -50,22 +50,4 @@ class HomeController extends Controller
     {
         return view('website.gallery');
     }
-
-    public function login()
-    {
-        return view('website.auth.login');
-    }
-
-
-
-
-    public function register()
-    {
-        return view('website.auth.register');
-    }
-
-    public function reset()
-    {
-        return view('website.auth.reset');
-    }
 }
