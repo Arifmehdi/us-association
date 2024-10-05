@@ -37,9 +37,9 @@
         </div>
         <a href="{{ route('reset') }}">Reset Password?</a>
     </form>
-    <div class="border text-center mt-2 rounded shadow p-3 bg-white">
+    {{-- <div class="border text-center mt-2 rounded shadow p-3 bg-white">
         <a href="{{ route('register') }}">Create an account.</a>
-    </div>
+    </div> --}}
 </div>
 
 @endsection

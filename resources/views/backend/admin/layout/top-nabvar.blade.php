@@ -7,9 +7,6 @@
             <ul>
                 <li><a class="dropdown-item" href="#">My Account</a></li>
                 <li><a class="dropdown-item" href="#">Settings</a></li>
-                <li><a class="dropdown-item" href="#">Products</a></li>
-                <li><a class="dropdown-item" href="#">Downloads</a></li>
-                <li><a class="dropdown-item" href="#">My Cart</a></li>
                 <li><a class="dropdown-item" href="{{ route('logout') }}">Logout</a></li>
             </ul>
         </div>
