@@ -28,6 +28,7 @@ Route::get('/events',[HomeController::class,'event'])->name('event');
 Route::get('/sunshine-expo-2024',[HomeController::class,'details'])->name('event.details');
 Route::get('/gallery',[HomeController::class,'gallery'])->name('gallery');
 Route::get('/blog',[HomeController::class,'blog'])->name('blog');
+Route::get('/blog/details',[HomeController::class,'blog_details'])->name('blog.details');
 Route::get('/sponsorship',[HomeController::class,'sponsorship'])->name('sponsorship');
 Route::get('/membership',[HomeController::class,'membership'])->name('membership');
 Route::get('/vendor',[HomeController::class,'vendor'])->name('vendor');

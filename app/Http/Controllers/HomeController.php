@@ -24,6 +24,10 @@ class HomeController extends Controller
     {
         return view('website.details');
     }
+    public function blog_details()
+    {
+        return view('website.blog-details');
+    }
 
     public function sponsorship()
     {

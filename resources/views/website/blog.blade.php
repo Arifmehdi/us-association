@@ -64,7 +64,7 @@
                                                 <p>
                                                     Very productive,informative&fruitful NACS show with our Associate partners (AASOA) from Verginia,North & South Carolina, NewJersey & Alabama (UMA).
                                                 </p>
-                                                <a href="#" class="btn btn-brand">More</a>
+                                                <a href="{{route('blog.details')}}" class="btn btn-brand">More</a>
                                             </div>
                                         </article>
                                     </div>
@@ -97,7 +97,7 @@
 
                                             <div class="blog-content">
                                                 <h3><a href="#">
-                                                    First blog
+                                                   Start new journey
                                                     </a>
                                                 </h3>
                                                 <p>
@@ -139,7 +139,7 @@
                                             <div class="blog-content">
                                                 <h3>
                                                     <a href="#">
-                                                        Second blog
+                                                        Grow your bussiness
                                                     </a>
                                                 </h3>
                                                 <p>
