@@ -20,7 +20,9 @@
                             @endauth
                         @endif
                         {{-- <a title="Register" class="btn-auth btn-auth" href="{{ route('register')}}">Signup</a> --}}
-                        <a title="Vendor Register" class="btn-auth btn-auth" href="{{ route('vendor')}}">Vendor</a>
+                        {{-- <a title="Vendor Register" class="btn-auth btn-auth" href="{{ route('vendor')}}">Vendor</a> --}}
+                        <a title="Vendor Register" class="btn-auth btn-auth" href="https://docs.google.com/forms/d/e/1FAIpQLScwmrBf9cIhn-xEQ60DmAys0Ib-xEcK8uKtPIu_EI2VBi_Upw/viewform" target="_blank">Vendor</a>
+
                     </div>
                 </div>
             </div>
