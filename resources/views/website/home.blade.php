@@ -7,7 +7,7 @@
         background-repeat: no-repeat;
         width:100%;
         height:600px; 
-        background-image:url({{ asset('frontend/assets/images/slider/h1.jpg') }})
+        background-image:url({{ asset('frontend/assets/images/slider/t1.jpg') }})
 
     }
     .fourth-slide{
@@ -25,12 +25,12 @@
         background-repeat: no-repeat;
         width:100%;
         height:600px; 
-        background-image:url({{ asset('frontend/assets/images/slider/t1.jpg') }})
+        background-image:url({{ asset('frontend/assets/images/slider/h1.jpg') }})
 
     }
     @media (max-width: 1500px) {
     .slider-bac-first {
-        background-image: url({{ asset('frontend/assets/images/slider/h2.jpg') }});
+        background-image: url({{ asset('frontend/assets/images/slider/t2.jpg') }});
         height: 600px; /* Adjust height if needed */
     }
     .fourth-slide {
@@ -38,7 +38,7 @@
         height: 600px; /* Adjust height if needed */
     }
     .slider-fifth {
-        background-image: url({{ asset('frontend/assets/images/slider/t2.jpg') }});
+        background-image: url({{ asset('frontend/assets/images/slider/h2.jpg') }});
         height: 600px; /* Adjust height if needed */
     }
 }
@@ -77,16 +77,30 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-12">
+                        {{-- <div class="slider-content">
+                            <h1>We Are Proud</h1>
+                            <h3>Member of <span>AASAO</span></h3>
+                            <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
+                                need academic, relocation, career, projects, mentorship, etc. you can ask the community
+                                and get responses in three.</p>
+                           
+                        </div> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="single-slide-wrap slider-fifth" style="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-9">
                         <div class="slider-content">
                             <h1>We Are Proud</h1>
                             <h3>Member of <span>AASAO</span></h3>
                             <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                 need academic, relocation, career, projects, mentorship, etc. you can ask the community
                                 and get responses in three.</p>
-                            {{-- <div class="slider-btn">
-                                <a href="#about-area" class="btn btn-brand smooth-scroll">our mission</a>
-                                <a href="#" class="btn btn-brand-rev">our story</a>
-                            </div> --}}
+                           
                         </div>
                     </div>
                 </div>
@@ -157,25 +171,7 @@
             </div>
         </div>
 
-        <div class="single-slide-wrap slider-fifth" style="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-9">
-                        {{-- <div class="slider-content">
-                            <h2>We Are Not Proud</h2>
-                            <h3>Member of <span>AASAO</span></h3>
-                            <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
-                                need academic, relocation, career, projects, mentorship, etc. you can ask the community
-                                and get responses in three.</p>
-                            <div class="slider-btn">
-                                <a href="#" class="btn btn-brand">our mission</a>
-                                <a href="#" class="btn btn-brand-rev">our story</a>
-                            </div>
-                        </div> --}}
-                    </div>
-                </div>
-            </div>
-        </div>
+       
 
     </div>
 
@@ -451,10 +447,10 @@
                     <ul>
                         <li>June 5, 2025</li>
                         <li>Renaissance Montgomery Hotel & Spa at the Convention Centre, Montgomery, AL</li>
-                        <li><a href="{{ route('expo') }}"><u>Show Details</u></a> </li>
+                        <li><a href="{{ route('event') }}"><u>Show Details</u></a> </li>
                         <br>
                     </ul>
-                    <a href="{{ route('expo') }}"><button
+                    <a href="{{ route('event') }}"><button
                             style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read
                             More</button></a>
                 </div>
