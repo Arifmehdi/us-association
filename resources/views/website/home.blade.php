@@ -100,11 +100,10 @@
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="slider-content">
-                            <h1>We Are Proud</h1>
-                            <h3>Member of <span>AASAO</span></h3>
-                            <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
-                                need academic, relocation, career, projects, mentorship, etc. you can ask the community
-                                and get responses in three.</p>
+                            <h1>2025 Gulf Coast Expo</h1>
+                            <h3>Join Us <span>June 5th 2025</span></h3>
+                            <p>Alabama's only Buying Trade show.</p>
+                            <p>At Renaissance  Convention Centre, Montgomery, AL.</p>
                            
                         </div>
                     </div>
