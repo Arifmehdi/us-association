@@ -8,6 +8,7 @@
         <section id="slider-area">
             <div class="slider-active-wrap owl-carousel text-center text-md-start">
 
+                
                 <div class="single-slide-wrap " style="width: 100%; height: auto; background-image:url({{ asset('frontend/assets/images/slider/slider-img-0.jpg') }})">
                     <div class="container">
                         <div class="row">
@@ -101,6 +102,7 @@
             </div>--}}
 
         </section>
+
 
         <!--=================================-->
         <!--=         Upcoming Event        =-->
