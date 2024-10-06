@@ -32,7 +32,9 @@ class AuthController extends Controller
         $credentials = $request->validate([
             'email' => 'required|email',
             'password' => 'required',
+            'mathcaptcha' => 'required|mathcaptcha', // MathCaptcha validation
         ]);
+        
 
         if(\Auth::attempt($request->only('email','password'))){
             return redirect(route('admin.dashboard'));
