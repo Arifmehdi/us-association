@@ -16,9 +16,9 @@ class HomeController extends Controller
         return view('website.about');
     }
 
-    public function expo()
+    public function event()
     {
-        return view('website.expo');
+        return view('website.event');
     }
 
     public function sponsorship()

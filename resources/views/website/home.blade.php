@@ -323,10 +323,10 @@
                             <ul>
                                 <li>June 5, 2025</li>
                                 <li>Renaissance Montgomery Hotel & Spa at the Convention Centre, Montgomery, AL</li>
-                                <li><a href="{{ route('expo') }}"><u>Show Details</u></a> </li>
+                                <li><a href="{{ route('event') }}"><u>Show Details</u></a> </li>
                                 <br>
                             </ul>
-                            <a href="{{ route('expo') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
+                            <a href="{{ route('event') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>
                         </div>
                     </div>
                     <!--== Single Responsibility End ==-->
