@@ -79,7 +79,7 @@
                         <li class="has-submenu menu-item-depth-0">
                             <a href="#">Help</a>
                             <ul class="sub-menu">
-                                <li><a href="#">FAQ</a></li>
+                                {{-- <li><a href="#">FAQ</a></li> --}}
                                 <li>
                                     <a href="{{ route('contact') }}">Contact</a>
 
