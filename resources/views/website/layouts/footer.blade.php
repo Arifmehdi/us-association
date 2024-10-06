@@ -31,7 +31,7 @@
                             <ul class="double-list footer-list clearfix">
                                 <li><a href="#">Mission</a></li>
                                 <li><a href="#">Chairman Message</a></li>
-                                <li><a href="{{ route('expo') }}">Expo</a></li>
+                                <li><a href="{{ route('event') }}">Expo</a></li>
                                 <li><a href="#">Sponsor</a></li>
                                 <li><a href="{{ route('membership') }}">Membership</a></li>
                                 <li><a href="#">Pricing Plan</a></li>
