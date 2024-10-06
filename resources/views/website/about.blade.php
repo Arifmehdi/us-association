@@ -10,7 +10,7 @@
                         <div class="page-title-content">
                             <h1 class="h2">About Us</h1>
                             <p>
-                                AASOA of Alabama offers opportunities for retailers as well as suppliers. 
+                                AASOA of Alabama about us section. 
                             </p>
                             <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
                         </div>

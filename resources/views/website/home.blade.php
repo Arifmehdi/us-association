@@ -44,21 +44,26 @@
 }
     @media (max-width: 1200px) {
     .slider-bac-first {
-        background-image: url({{ asset('frontend/assets/images/slider/h3.jpg') }});
-        height: auto; /* Adjust height if needed */
+        background-image: url({{ asset('frontend/assets/images/slider/t3.jpg') }});
+        height: 600px; /* Adjust height if needed */
     }
     .slider-fifth {
-        background-image: url({{ asset('frontend/assets/images/slider/t3.jpg') }});
-        height: auto; /* Adjust height if needed */
+        background-image: url({{ asset('frontend/assets/images/slider/h3.jpg') }});
+        height: 600px; /* Adjust height if needed */
     }
 }
 
 /* Small screens */
 @media (max-width: 768px) {
     .slider-bac-first {
-        background-image: url({{ asset('frontend/assets/images/slider/h4.jpg') }});
-        width:100%;
-        height: auto; /* Adjust height if needed */
+        background-image: url({{ asset('frontend/assets/images/slider/t4.jpg') }});
+        height: 600px; /* Adjust height if needed */
+    }
+}
+@media (max-width: 500px) {
+    .slider-bac-first {
+        background-image: url({{ asset('frontend/assets/images/slider/t5.jpg') }});
+        height: 600px; /* Adjust height if needed */
     }
 }
 

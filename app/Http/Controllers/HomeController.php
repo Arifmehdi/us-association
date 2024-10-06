@@ -20,6 +20,10 @@ class HomeController extends Controller
     {
         return view('website.event');
     }
+    public function details()
+    {
+        return view('website.details');
+    }
 
     public function sponsorship()
     {

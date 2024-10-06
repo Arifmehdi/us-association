@@ -45,41 +45,41 @@
                 <!-- Single Widget End -->
 
                 <!-- Single Widget Start -->
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-12">
                     <div class="single-widget-wrap">
                         <h4 class="widget-title">Gallery</h4>
-                        <div class="widgei-body">
+                        <div class="widget-body">
                             <div class="row">
                                 <!-- Add Bootstrap classes to images -->
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_1.JPG') }}" alt="thumb 1" class="img-fluid img-thumbnail" />
                                 </div>
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_2.JPG') }}" alt="thumb 2" class="img-fluid img-thumbnail" />
                                 </div>
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_3.JPG') }}" alt="thumb 3" class="img-fluid img-thumbnail" />
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_4.JPG') }}" alt="thumb 4" class="img-fluid img-thumbnail" />
                                 </div>
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_5.JPG') }}" alt="thumb 5" class="img-fluid img-thumbnail" />
                                 </div>
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_6.JPG') }}" alt="thumb 6" class="img-fluid img-thumbnail" />
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_7.JPG') }}" alt="thumb 7" class="img-fluid img-thumbnail" />
                                 </div>
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_8.JPG') }}" alt="thumb 8" class="img-fluid img-thumbnail" />
                                 </div>
-                                <div class="col-lg-3 col-sm-6 mb-3">
+                                <div class="col-lg-3 col-sm-4 mb-3">
                                     <img src="{{ asset('frontend/assets/images/thumbnall/thumb_9.JPG') }}" alt="thumb 9" class="img-fluid img-thumbnail" />
                                 </div>
                             </div>
@@ -92,6 +92,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <!-- Single Widget End -->
 
             </div>

@@ -2281,6 +2281,52 @@ blockquote:before {
     bottom: 0;
     left: 100%;
 }
+.event-countdown-details .event-countdown-counter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.event-countdown-details .event-countdown-counter .counter-item {
+    text-align: center;
+    color: #069c95;
+    margin-right: 15px;
+}
+.event-countdown-details .event-countdown-counter .counter-item .counter-label {
+    font-size: 24px;
+    color:#2c2c2c;
+    line-height: 1;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 9px;
+}
+.event-countdown-details .event-countdown-counter .counter-item .single-cont {
+    font-size: 65px;
+    line-height: 1.5;
+    font-weight: 700;
+    background-color: #0b74b6;
+    color:rgb(245, 244, 244);
+    border-radius:5px;
+    width:200px;
+    height:100px;
+    display: inline-block;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    margin-right:25px;
+}
+.event-countdown-details p {
+    font-size: 18px;
+    font-size: 1.8rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+}
 .event-thumbnail-carousel {
     -webkit-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
