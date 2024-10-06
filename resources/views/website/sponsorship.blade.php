@@ -8,9 +8,9 @@
                 <div class="row">
                     <div class="col-lg-8 m-auto text-center">
                         <div class="page-title-content">
-                            <h1 class="h2">Gallary</h1>
+                            <h1 class="h2">Sponsors</h1>
                             <p>
-                                AASOA of Alabama offers opportunities for retailers as well as suppliers.
+                                AASOA of Alabama offers a range of sponsorship opportunities.
                             </p>
                             <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
                         </div>
@@ -25,98 +25,99 @@
         <section id="page-content-wrap">
             <div class="committee-content-wrap section-padding">
                 <div class="committee-member-list">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-4 col-sm-10 col-md-7 m-auto">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-1.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Bryan Watshon <span class="committee-deg">President</span></h3>
+                    <div class="container p-3">
+                        
+
+                        <div class="row g-3">
+                            <div class="col-lg-3 col-sm-6 p-4">
+                                <div class="d-flex justify-content-center align-items-center" 
+                                     style="box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, 
+                                            rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                                            rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+                                            width: 100%; height: 250px;">
+                                    <img style="max-width:100%; max-height:100%; object-fit: contain;" 
+                                         src="{{ asset('frontend/assets/images/s5.png') }}" class="img-fluid" alt="sponsors" />
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 p-4">
+                                <div class="d-flex justify-content-center align-items-center" 
+                                     style="box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, 
+                                            rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                                            rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+                                            width: 100%; height: 250px;">
+                                    <img style="max-width:100%; max-height:100%; object-fit: contain;" 
+                                         src="{{ asset('frontend/assets/images/s6.png') }}" class="img-fluid" alt="sponsors" />
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 p-4">
+                                <div class="d-flex justify-content-center align-items-center" 
+                                     style="box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, 
+                                            rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                                            rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+                                            width: 100%; height: 250px;">
+                                    <img style="max-width:100%; max-height:100%; object-fit: contain;" 
+                                         src="{{ asset('frontend/assets/images/s3.jpeg') }}" class="img-fluid" alt="sponsors" />
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 p-4">
+                                <div class="d-flex justify-content-center align-items-center" 
+                                     style="box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, 
+                                            rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                                            rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+                                            width: 100%; height: 250px;">
+                                    <img style="max-width:100%; max-height:100%; object-fit: contain;" 
+                                         src="{{ asset('frontend/assets/images/s4.jpeg') }}" class="img-fluid" alt="sponsors" />
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-2.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Carlos Helu <span class="committee-deg">Vice President</span></h3>
+                        <div class="row g-3">
+                            <div class="col-lg-3 col-sm-6 p-4">
+                                <div class="d-flex justify-content-center align-items-center" 
+                                     style="box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, 
+                                            rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                                            rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+                                            width: 100%; height: 250px;">
+                                    <img style="max-width:100%; max-height:100%; object-fit: contain;" 
+                                         src="{{ asset('frontend/assets/images/s1.png') }}" class="img-fluid" alt="sponsors" />
                                 </div>
                             </div>
-
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-3.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Amancio Ortega <span class="committee-deg">Secretary</span></h3>
+                            <div class="col-lg-3 col-sm-6 p-4">
+                                <div class="d-flex justify-content-center align-items-center" 
+                                     style="box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, 
+                                            rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                                            rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+                                            width: 100%; height: 250px;">
+                                    <img style="max-width:90%; max-height:100%; object-fit: contain;" 
+                                         src="{{ asset('frontend/assets/images/s8.png') }}" class="img-fluid" alt="sponsors" />
                                 </div>
                             </div>
-
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-4.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Angle Tuni <span class="committee-deg">Asst Secretary</span></h3>
+                            <div class="col-lg-3 col-sm-6 p-4">
+                                <div class="d-flex justify-content-center align-items-center" 
+                                     style="box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, 
+                                            rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                                            rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+                                            width: 100%; height: 250px;">
+                                    <img style="max-width:100%; max-height:100%; object-fit: contain;" 
+                                         src="{{ asset('frontend/assets/images/s2.png') }}" class="img-fluid" alt="sponsors" />
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-5.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Alex Kalifa <span class="committee-deg">Office Secretary</span></h3>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-7.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Mal Muhit <span class="committee-deg">Finance Member</span></h3>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-6.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Alex Salina <span class="committee-deg">Committee Member</span></h3>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-8.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Karim Mia <span class="committee-deg">Committee Member</span></h3>
+                            <div class="col-lg-3 col-sm-6 p-4">
+                                <div class="d-flex justify-content-center align-items-center" 
+                                     style="box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, 
+                                            rgba(17, 17, 26, 0.1) 0px 8px 24px, 
+                                            rgba(17, 17, 26, 0.1) 0px 16px 48px; 
+                                            width: 100%; height: 250px;">
+                                    <img style="max-width:100%; max-height:100%; object-fit: contain;" 
+                                         src="{{ asset('frontend/assets/images/s9.jpg') }}" class="img-fluid" alt="sponsors" />
                                 </div>
                             </div>
                         </div>
+                        
+                        
+                        
+                        
 
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-3.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Rahim Mia <span class="committee-deg">Committee Member</span></h3>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-2.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Prince Rimon<span class="committee-deg">Committee Member</span></h3>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-4.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Sheoli Afsar<span class="committee-deg">Committee Member</span></h3>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-3 col-sm-6">
-                                <div class="single-committee-member">
-                                    <img src="{{ asset('assets/images/committee/commitee-1.jpg') }}" class="img-fluid" alt="Committee" />
-                                    <h3>Prince Kamla<span class="committee-deg">Committee Member</span></h3>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

@@ -72,14 +72,14 @@
                             </ul>
                         </li>
                         {{-- <li><a href="{{ route('sponsorship') }}">Sponsorship</a></li> --}}
-                        <li><a href="#">Sponsorship</a></li>
+                        <li><a href="{{route('sponsorship')}}">Sponsors</a></li>
                         <li><a href="{{ route('membership') }}">Membership</a></li>
                         <li><a href="{{ route('gallery') }}">Gallery</a></li>
                         <li><a href="{{ route('blog') }}">Blog</a></li>
                         <li class="has-submenu menu-item-depth-0">
                             <a href="#">Help</a>
                             <ul class="sub-menu">
-                                <li><a href="#">FAQ</a></li>
+                                {{-- <li><a href="#">FAQ</a></li> --}}
                                 <li>
                                     <a href="{{ route('contact') }}">Contact</a>
 

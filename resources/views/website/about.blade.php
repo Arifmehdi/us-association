@@ -10,7 +10,7 @@
                         <div class="page-title-content">
                             <h1 class="h2">About Us</h1>
                             <p>
-                                AASOA of Alabama offers opportunities for retailers as well as suppliers. 
+                                AASOA of Alabama about us section. 
                             </p>
                             <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
                         </div>
@@ -26,28 +26,35 @@
             <div class="about-page-content-wrap section-padding">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-11 m-auto">
+                        <div class="col-lg-12 m-auto">
                             <!-- Single about text start -->
-                            <div class="single-about-text" >
-                                {{-- <span class="year">1900</span> --}}
-                                <img src="{{ asset('frontend/assets/images/about-page/about-img-1.jpg') }}" alt="About" class="img-fluid img-left" style="-webkit-filter:grayscale(0);filter:grayscale(0)">
-                                <h2 class="h3">AASOA Chairman's message</h2>
-                                <p>Allow me to thank you for giving me the opportunity to serve as a Trustee Chairman of one of the most vibrant organizations in Alabama.</p>
-                                <p>will do my best to achieve the goals established by Asian American Store Owners Association with support from the executive committee
-                                    and advisory board members.</p>
+                            <div class="row">
+                                <div class="col-lg-6 mb-4"> <!-- Column for the image -->
+                                    <img src="{{ asset('frontend/assets/images/about-page/about-img-1.jpg') }}" alt="About" 
+                                         class="img-fluid img-left" style="-webkit-filter:grayscale(0); filter:grayscale(0);">
+                                </div>
+                                <div class="col-lg-6 mb-4"> <!-- Column for the content -->
+                                    <div class="single-about-text">
+                                        <h2>AASOA Chairman's message</h2>
+                                        <p>Allow me to thank you for giving me the opportunity to serve as a Trustee Chairman of one of the most vibrant organizations in Alabama.</p>
+                                        <p>I will do my best to achieve the goals established by the Asian American Store Owners Association with support from the executive committee and advisory board members.</p>
+                                    </div>
+                                </div>
                             </div>
                             <!-- Single about text End -->
 
                             <!-- Single about text start -->
-                            <div class="single-about-text">
-                                {{-- <span class="year">1920</span> --}}
-                                <img src="{{ asset('frontend/assets/images/about-page/about-img-2.jpg') }}" alt="About" class="img-fluid img-right">
-                                <h2 class="h3">Our First Achivement in History</h2>
-                                <p>AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and
-                                    strengthen business relationships. By continually striving to develop benefits for our members through our Preferred</p>
-                                <p>To constantly strive to meet or exceed our customer needs and expectations of price, service, and selection. 
-                                    To this end, we will perform periodic reviews of the marketplace to improve our offerings. 
-                                    AASOA of Alabama was established in 2012 and we are very fortunate to be able to serve local business owners..</p>
+                            <div style="margin-top:125px" class="row">
+                                <div style="width:48%; margin-right:15px" class="col-lg-6 mb-4"> <!-- Column for the content -->
+                                    <div class="single-about-text">
+                                        <h2 class="h3">Our First Achievement in History</h2>
+                                        <p>AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships. By continually striving to develop benefits for our members through our Preferred.</p>
+                                        <p>To constantly strive to meet or exceed our customer needs and expectations of price, service, and selection. To this end, we will perform periodic reviews of the marketplace to improve our offerings. AASOA of Alabama was established in 2012 and we are very fortunate to be able to serve local business owners.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 mb-4"> <!-- Column for the image -->
+                                    <img style="height:400px; width:100%" src="{{ asset('frontend/assets/images/about-page/about-img-2.jpg') }}" alt="About" class="img-fluid img-right">
+                                </div>
                             </div>
                             <!-- Single about text End -->
 
