@@ -72,7 +72,7 @@
                             </ul>
                         </li>
                         {{-- <li><a href="{{ route('sponsorship') }}">Sponsorship</a></li> --}}
-                        <li><a href="#">Sponsorship</a></li>
+                        <li><a href="{{route('sponsorship')}}">Sponsorship</a></li>
                         <li><a href="{{ route('membership') }}">Membership</a></li>
                         <li><a href="{{ route('gallery') }}">Gallery</a></li>
                         <li><a href="{{ route('blog') }}">Blog</a></li>

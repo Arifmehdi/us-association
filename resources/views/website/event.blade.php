@@ -11,7 +11,7 @@
                         <div class="page-title-content">
                             <h1 class="h2">All Event Archive</h1>
                             <p>
-                                AASOA of Alabama offers opportunities for retailers as well as suppliers.
+                                AASOA of Alabama offers opportunities for our upcoming event.
                             </p>
                             <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
                         </div>
@@ -87,133 +87,14 @@
                                                         <p></p>
                                                         {{-- <p>Time: 10am to 5pm</p> --}}
                                                         <p>Venue: Renaissance Montgomery Hotel & Spa at the Convention Centre, Montgomery, AL.</p>
-                                                        <a href="#" class="btn btn-brand btn-brand-dark">Show More</a>
+                                                        <a href="{{route('event.details')}}" class="btn btn-brand btn-brand-dark">Show More</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Single Event End -->
-
-                                <!-- Single Event Start -->
-                                {{-- <div class="single-upcoming-event">
-                                    <div class="row">
-                                        <div class="col-lg-5">
-                                            <div class="up-event-thumb">
-                                                <img src="{{ asset('frontend/assets/images/event/event-img-2.jpg') }}" class="img-fluid" alt="Upcoming Event">
-                                                <h4 class="up-event-date">It’s 27 February 2023</h4>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-7">
-                                            <div class="display-table">
-                                                <div class="display-table-cell">
-                                                    <div class="up-event-text">
-                                                        <div class="event-countdown">
-                                                            <div class="event-countdown-counter" data-date="2024/9/10"></div>
-                                                            <p>Remaining</p>
-                                                        </div>
-                                                        <h3>
-                                                            <a href="#">
-                                                                We are going to arrange a get together!
-                                                            </a>
-                                                        </h3>
-                                                        <p>
-                                                            Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquipv ex ea.
-                                                        </p>
-                                                        <a href="#" class="btn btn-brand btn-brand-dark">
-                                                            Join with us
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> --}}
-                                <!-- Single Event End -->
-
-                                <!-- Single Event Start -->
-                                {{-- <div class="single-upcoming-event">
-                                    <div class="row">
-                                        <div class="col-lg-5">
-                                            <div class="up-event-thumb">
-                                                <img src="{{ asset('frontend/assets/images/event/event-img-3.jpg') }}" class="img-fluid" alt="Upcoming Event">
-                                                <h4 class="up-event-date">It’s 27 February 2023</h4>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-7">
-                                            <div class="display-table">
-                                                <div class="display-table-cell">
-                                                    <div class="up-event-text">
-                                                        <div class="event-countdown">
-                                                            <div class="event-countdown-counter" data-date="2024/9/10"></div>
-                                                            <p>Remaining</p>
-                                                        </div>
-                                                        <h3>
-                                                            <a href="#">
-                                                                We are going to arrange a get together!
-                                                            </a>
-                                                        </h3>
-                                                        <p>
-                                                            Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquipv ex ea.
-                                                        </p>
-                                                        <a href="#" class="btn btn-brand btn-brand-dark">
-                                                            Join with us
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> --}}
-                                <!-- Single Event End -->
-
-                                {{-- <!-- Single Event Start -->
-                                <div class="single-upcoming-event">
-                                    <div class="row">
-                                        <div class="col-lg-5">
-                                            <div class="up-event-thumb">
-                                                <img src="{{ asset('frontend/assets/images/event/event-img-4.jpg') }}" class="img-fluid" alt="Upcoming Event">
-                                                <h4 class="up-event-date">It’s 27 February 2023</h4>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-lg-7">
-                                            <div class="display-table">
-                                                <div class="display-table-cell">
-                                                    <div class="up-event-text">
-                                                        <div class="event-countdown">
-                                                            <div class="event-countdown-counter" data-date="2024/9/10"></div>
-                                                            <p>Remaining</p>
-                                                        </div>
-                                                        <h3>
-                                                            <a href="#">
-                                                                We are going to arrange a get together!
-                                                            </a>
-                                                        </h3>
-                                                        <p>
-                                                            Hello everybody Lorem ipsum dolor sit amet, consectetur adipisicing
-                                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                                                            aliqua. Ut enim and minim veniam, quis nostrud exercitation ullamco
-                                                            laboris nisi ut aliquipv ex ea.
-                                                        </p>
-                                                        <a href="#" class="btn btn-brand btn-brand-dark">join
-                                                            with us</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Single Event End --> --}}
+                                
                             </div>
                         </div>
                     </div>
