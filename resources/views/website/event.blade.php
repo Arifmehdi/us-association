@@ -68,7 +68,7 @@
                                     <div class="row">
                                         <div class="col-lg-5">
                                             <div class="up-event-thumb">
-                                                <img src="{{ asset('frontend/assets/images/event/event-img-1.jpg') }}" class="img-fluid" alt="Upcoming Event">
+                                                <img style="height:355px; border-radius:4px" src="{{ asset('frontend/assets/images/event/event-img-1.jpg') }}" class="img-fluid" alt="Upcoming Event">
                                                 <h4 class="up-event-date">Gulf coast Expo 2025</h4>
                                             </div>
                                         </div>
