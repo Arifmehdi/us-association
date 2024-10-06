@@ -66,10 +66,31 @@
                                                     <label for="cbxmessage">Message</label>
                                                     <textarea name="cbxmessage" id="cbxmessage" rows="10" cols="80" placeholder="Your Message" class="form-control"></textarea>
                                                 </div>
-                                                <div class="custom-control custom-checkbox">
+                                                <div class="p-0">
+                                                    <div class="form-group">
+                                                        <p style="color:rgb(32, 32, 31); font-weight:bold; font-size:12px; margin-bottom:13px; margin-top:10px">
+                                                            <span class="text-danger">*</span> Security Question (Enter the Correct answer)
+                                                        </p>
+                                                        <div style="display: flex;">
+                                                            <div id="captchaLabelSign" style="background-color:rgb(5, 145, 145); width:100%; margin-right:10px; text-align:center; padding-top:7px; font-weight:600; margin-top:2px; height:42px; border-radius:5px; color:white">
+                                                                {{ app('mathcaptcha')->label(true) }}
+                                                            </div>
+                                                            <div>
+                                                                <input id="captchaInputSign" style="width:100%; border-radius:5px" class="form-control" type="text"
+                                                                    name="mathcaptcha" id="mathcaptcha" placeholder="Your answer">
+                                                                @if ($errors->has('mathcaptcha'))
+                                                                    <span id="Smathcaptcha" class="text-danger" role="alert">
+                                                                        {{ $errors->first('mathcaptcha') }}
+                                                                    </span>
+                                                                @endif
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {{-- <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input" id="cbxsendme" name="cbxsendme" value="on">
                                                     <label class="custom-control-label" for="cbxsendme">Send Me CC</label>
-                                                </div>
+                                                </div> --}}
 
                                                 <button class="btn btn-reg">Send</button>
                                                 <div id="cbx-formalert"></div>
