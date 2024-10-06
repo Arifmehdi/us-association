@@ -1194,17 +1194,16 @@ blockquote:before {
     margin-right: 10px;
 }
 .site-header .codeboxr-main-menu li.has-submenu > a:after {
-    content: "";
-    font-family: Font Awesome\5 Free;
-    font-weight: 900;
+    content: "\f107"; /* Unicode for Font Awesome chevron-down */
+    font-family: "Font Awesome 5 Free"; /* Ensure you're using the correct font family */
+    font-weight: 900; /* Solid weight */
     position: absolute;
-    top: calc(50% - 11px);
-    right: -15px;
-    -webkit-transform: rotate(0);
-    -ms-transform: rotate(0);
-    transform: rotate(0);
-    font-size: 9pt;
+    top: calc(50% - 11px); /* Adjust top positioning as needed */
+    right: -15px; /* Adjust right positioning as needed */
+    font-size: 9pt; /* Adjust font size as needed */
+    color: inherit; /* Use the same color as the text or specify your color */
 }
+
 .site-header .codeboxr-main-menu li.has-submenu .sub-menu {
     margin: 0;
     position: absolute;
@@ -4003,13 +4002,7 @@ blockquote:before {
     transition: all 0.4s ease-in-out;
     position: relative;
 }
-#footer-area .footer-widget .single-widget-wrap .footer-list li a:before {
-    content: "";
-    font-family: Font Awesome\5 Free;
-    font-weight: 900;
-    font-size: 9pt;
-    margin-right: 7px;
-}
+
 #footer-area .footer-widget .single-widget-wrap .footer-list li a:hover {
     color: #5481ff;
     padding-left: 6px;

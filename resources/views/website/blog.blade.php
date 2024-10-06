@@ -64,7 +64,7 @@
                                                 <p>
                                                     Very productive,informative&fruitful NACS show with our Associate partners (AASOA) from Verginia,North & South Carolina, NewJersey & Alabama (UMA).
                                                 </p>
-                                                <a href="#" class="btn btn-brand">More</a>
+                                                <a href="{{route('blog.details')}}" class="btn btn-brand">More</a>
                                             </div>
                                         </article>
                                     </div>
@@ -97,7 +97,7 @@
 
                                             <div class="blog-content">
                                                 <h3><a href="#">
-                                                    First blog
+                                                   Start new journey
                                                     </a>
                                                 </h3>
                                                 <p>
@@ -105,7 +105,7 @@
                                                     {{-- any money for advertising and we never really believed that
                                                      attending networking events would work for us. “It’s been a long journey but 16 months later we now get 250,000 pageviews to our site per month, in the last year we have brought in over $500,000 in business as a direct result of the blog and the business operates in 2 countries and our content has been picked up all over the world.” --}}
                                                 </p>
-                                                <a href="#" class="btn btn-brand">More</a>
+                                                <a href="{{route('blog.details')}}" class="btn btn-brand">More</a>
                                             </div>
                                         </article>
                                     </div>
@@ -139,14 +139,14 @@
                                             <div class="blog-content">
                                                 <h3>
                                                     <a href="#">
-                                                        Second blog
+                                                        Grow your bussiness
                                                     </a>
                                                 </h3>
                                                 <p>
                                                     AASOA is a best platform for business.  When we started our business 16 months ago we decided to use a blog as the central marketing tool for our business.
                                                     {{-- We did it because we didn’t really have any money for advertising and we never really believed that attending networking events would work for us. “It’s been a long journey but 16 months later we now get 250,000 pageviews to our site per month, in the last year we have brought in over $500,000 in business as a direct result of the blog and the business operates in 2 countries and our content has been picked up all over the world.” --}}
                                                 </p>
-                                                <a href="#" class="btn btn-brand">More</a>
+                                                <a href="{{route('blog.details')}}"" class="btn btn-brand">More</a>
                                             </div>
                                         </article>
                                     </div>
