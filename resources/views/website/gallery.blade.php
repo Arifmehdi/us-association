@@ -25,12 +25,12 @@
         <section id="page-content-wrap">
             <div class="gallery-page-wrap section-padding">
                 <!-- Gallery Menu Start -->
-                <div class="gallery-menu text-center">
+                <!-- <div class="gallery-menu text-center">
                     <a href="#" class="active">All</a>
                     <a href="#">Seminar</a>
                     <a href="#">Event</a>
                     <a href="#">Picnic</a>
-                </div>
+                </div> -->
                 <!-- Gallery Menu End -->
 
                 <!--= Gallery Page Content Wrap Start =-->
@@ -41,9 +41,9 @@
                                 <!-- Single Album Start -->
                                 <div class="single-album-wraper">
                                     <div class="album-heading">
-                                        <h2><a href="#">Our last Meetup in 2018</a></h2>
+                                        <h2><a href="#">Our last Meetup in 2017</a></h2>
                                         <p>AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships.</p>
-                                        <a href="#" class="btn btn-brand">View Album</a>
+                                        <!-- <a href="#" class="btn btn-brand">View Album</a> -->
                                     </div>
 
                                     <div class="album-gallery-item">

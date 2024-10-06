@@ -63,7 +63,7 @@
                                                                     <div class="col-12 col-sm-6">
                                                                         <div class="form-group">
                                                                             <label for="register_name">Name</label>
-                                                                            <input type="text" class="form-control" id="register_name" name="register_name" placeholder="John Smith"/>
+                                                                            <input type="text" class="form-control" id="register_name" name="register_name" />
                                                                         </div>
                                                                     </div>
 
@@ -87,7 +87,7 @@
                                                                 <div class="col-12 col-sm-12">
                                                                     <div class="form-group">
                                                                         <label for="register_password">Address</label>
-                                                                        <input type="text" class="form-control" id="register_password" name="register_password" placeholder="20 Wellington ST. E"/>
+                                                                        <input type="text" class="form-control" id="register_password" name="register_password" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -96,14 +96,14 @@
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_year">City</label>
-                                                                        <input type="text" class="form-control" id="register_year" name="register_year" placeholder="Richmond"/>
+                                                                        <input type="text" class="form-control" id="register_year" name="register_year" />
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_deptno">State</label>
-                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" placeholder="Virginia"/>
+                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -112,14 +112,14 @@
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_year">Zip Code</label>
-                                                                        <input type="text" class="form-control" id="register_year" name="register_year" placeholder="23263"/>
+                                                                        <input type="text" class="form-control" id="register_year" name="register_year" />
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_email">Company Name</label>
-                                                                        <input type="email" class="form-control" id="register_email" name="register_email" placeholder="Type Your Company Name"/>
+                                                                        <input type="email" class="form-control" id="register_email" name="register_email" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -127,14 +127,14 @@
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_year">Store Phone</label>
-                                                                        <input type="text" class="form-control" id="register_year" name="register_year" placeholder="(123) 123-1234"/>
+                                                                        <input type="text" class="form-control" id="register_year" name="register_year"/>
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_deptno">Store Fax</label>
-                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" placeholder="(123) 123-1234"/>
+                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -142,14 +142,14 @@
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_year">Cell Phone </label>
-                                                                        <input type="text" class="form-control" id="register_year" name="register_year" placeholder="(123) 123-1234"/>
+                                                                        <input type="text" class="form-control" id="register_year" name="register_year" />
                                                                     </div>
                                                                 </div>
 
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_deptno">Cell Phone Carrier</label>
-                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" placeholder="Eg: AT&T/Vodafone"/>
+                                                                        <input type="text" class="form-control" id="register_deptno" name="register_deptno" />
                                                                     </div>
                                                                 </div>
                                                             </div>

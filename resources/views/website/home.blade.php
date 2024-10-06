@@ -317,11 +317,11 @@
                     <div class="col-lg-4 col-sm-6">
                         <div class="single-responsibility" style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
                             <img src="{{ asset('frontend/assets/images/responsibility/04.png') }}" alt="Responsibility" style="max-width: 100%; height: auto;">
-                            <h4>Expo</h4>
+                            <h4>2025 Gulf Coast Expo</h4>
                             <ul>
-                                <li>Dec 9, 2017 - Dec 10, 2017</li>
-                                <li>Emerald Coast Convention Center, Ft. Walton Beach, FL. Exhibit Hall A </li>
-                                <li><a href="#"><u>Show Details</u></a> </li>
+                                <li>June 5, 2025</li>
+                                <li>Renaissance Montgomery Hotel & Spa at the Convention Centre, Montgomery, AL</li>
+                                <li><a href="{{ route('expo') }}"><u>Show Details</u></a> </li>
                                 <br>
                             </ul>
                             <a href="{{ route('expo') }}"><button style="margin-top: 10px; padding: 8px 16px; background-color: #007bff; color: white; border: none; cursor: pointer; border-radius: 5px;">Read More</button></a>

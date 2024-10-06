@@ -324,7 +324,7 @@
                                 <!-- Single Sidebar End -->
 
                                 <!-- Single Sidebar Start -->
-                                <div class="single-sidebar-wrap">
+                                <!-- <div class="single-sidebar-wrap">
                                     <h4 class="sidebar-title">Categories</h4>
                                     <div class="sidebar-body">
                                         <ul class="brand-unorderlist">
@@ -337,7 +337,7 @@
 
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- Single Sidebar End -->
 
                                 <!-- Single Sidebar Start -->
@@ -345,14 +345,14 @@
                                     <h4 class="sidebar-title">Popular Tags</h4>
                                     <div class="sidebar-body">
                                         <div class="tags">
-                                            <a href="#">Bootstrap</a>
-                                            <a href="#">Design</a>
-                                            <a href="#">web</a>
-                                            <a class="active" href="#">custom</a>
-                                            <a href="#">wordpres</a>
-                                            <a href="#">Art</a>
-                                            <a href="#">our team</a>
-                                            <a href="#">Classic</a>
+                                            <a href="#">AASAO</a>
+                                            <a href="#">Association</a>
+                                            <a href="#">Expo 2025</a>
+                                            <a class="active" href="#">AASAO Alabama</a>
+                                            <a href="#">AASAO AL</a>
+                                            <a href="#">Vendor</a>
+                                            <a href="#">Sponsorship</a>
+                                            <a href="#">Membership</a>
                                         </div>
                                     </div>
                                 </div>

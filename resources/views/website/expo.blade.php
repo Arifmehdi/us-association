@@ -83,7 +83,7 @@
                                                         </div>
                                                         <h3><a href="#">Alabama Asian American Store Owners Association and UMA</a></h3>
                                                         <p>2025 Gulf Coast Expo</p>
-                                                        <p>Date: December 9th and 10th 2017</p>
+                                                        <p>Date: June 5th 2025</p>
                                                         <p></p>
                                                         {{-- <p>Time: 10am to 5pm</p> --}}
                                                         <p>Venue: Renaissance Montgomery Hotel & Spa at the Convention Centre, Montgomery, AL.</p>

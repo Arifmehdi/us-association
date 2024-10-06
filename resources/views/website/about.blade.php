@@ -10,7 +10,7 @@
                         <div class="page-title-content">
                             <h1 class="h2">About Us</h1>
                             <p>
-                                Alumni Needs enables you to harness the power of your alumni network. Whatever may be the need
+                                AASOA of Alabama offers opportunities for retailers as well as suppliers. 
                             </p>
                             <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
                         </div>
@@ -45,17 +45,9 @@
                                 <h2 class="h3">Our First Achivement in History</h2>
                                 <p>AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and
                                     strengthen business relationships. By continually striving to develop benefits for our members through our Preferred</p>
-                                <p>Etiam rhoncus. Ut lddffdfqwqeo. Morbi mollis tellus ac sapien. Fusce fermentum oo
-                                    nec arcu. Quisque manisl idUt leo. Morbi mollis tellus ac sapien. Fusce
-                                    fermentum oo nec ante tempus hendrerit. Curabitur at lacus ac velit ornare
-                                    lobortis. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
-                                    turpis. Quisque id mi.Aenean viverra rhoncus pede. Phasellus leo dolor, tempus non, auctor
-                                    endrerit quis, nisi.
-                                    Fusce neque. Donec vitae orci sed dolor rutrum auctor. Sed fringilla mauris sit amet
-                                    nibh.Etiam rhoncus. Ut leo. Morbi mollis tellus ac sapien. Fusce fermentum oo nec arcu.
-                                    Quisque malesuada placerat nisl. Etiam sit amet orci eget faucitincidunt. Quisque
-                                    rutrum. Pellentesque posuere. Praesent ac massa at ligula laoureet iaculis. Cras risus
-                                    ipsum, faucibus ut, ullamcorper id, varius ac, leo.</p>
+                                <p>To constantly strive to meet or exceed our customer needs and expectations of price, service, and selection. 
+                                    To this end, we will perform periodic reviews of the marketplace to improve our offerings. 
+                                    AASOA of Alabama was established in 2012 and we are very fortunate to be able to serve local business owners..</p>
                             </div>
                             <!-- Single about text End -->
 
