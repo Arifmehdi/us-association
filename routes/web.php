@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Admin\SponsorController;
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\SocialController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,5 +38,6 @@ Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 
 Route::prefix('admin')->as('admin.')->middleware('auth')->group(function () {
     Route::resource('sponsors', SponsorController::class);
+    Route::resource('socials', SocialController::class);
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
 });
