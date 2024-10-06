@@ -25,7 +25,7 @@ use App\Http\Controllers\Admin\DashboardController;
 Route::get('/',[HomeController::class,'home'])->name('home');
 Route::get('/about',[HomeController::class,'about'])->name('about');
 Route::get('/events',[HomeController::class,'event'])->name('event');
-Route::get('/sunshine-expo-2024',[HomeController::class,'details'])->name('event.details');
+Route::get('/gulf-coast-expo-2025',[HomeController::class,'details'])->name('event.details');
 Route::get('/gallery',[HomeController::class,'gallery'])->name('gallery');
 Route::get('/blog',[HomeController::class,'blog'])->name('blog');
 Route::get('/blog/details',[HomeController::class,'blog_details'])->name('blog.details');
