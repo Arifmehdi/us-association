@@ -65,7 +65,12 @@
                             <a href="{{ route('home') }}">Home</a>
                         </li>
                         <li><a href="{{ route('about') }}">About</a></li>
-                        <li><a href="{{ route('expo') }}">Expo</a></li>
+                        <li class="has-submenu menu-item-depth-0">
+                            <a href="{{ route('event') }}">Event</a>
+                            <ul class="sub-menu">
+                                <li><a href="{{ route('event') }}">Gulf Coast Expo 2025</a></li>
+                            </ul>
+                        </li>
                         {{-- <li><a href="{{ route('sponsorship') }}">Sponsorship</a></li> --}}
                         <li><a href="#">Sponsorship</a></li>
                         <li><a href="{{ route('membership') }}">Membership</a></li>
