@@ -41,30 +41,31 @@
                                     <div class="col-lg-6 m-auto">
                                         <div class="contact-form-wrap">
                                             <h3>Send Message</h3>
-                                            <form action="#" id="cbx-contact-form">
+                                            <form action="{{ route('contact.store') }}" id="cbx-contact-form" method="post">
+                                                @csrf
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="form-group">
-                                                            <label for="cbxname">Name</label>
-                                                            <input type="text" name="cbxname" required id="cbxname" placeholder="Your Full Name" class="form-control">
+                                                            <label for="name">Name</label>
+                                                            <input type="text" name="name" required id="cbxname" placeholder="Your Full Name" class="form-control">
                                                         </div>
                                                     </div>
                                                     <div class="col">
                                                         <div class="form-group">
-                                                            <label for="cbxemail">Email</label>
-                                                            <input type="email" name="cbxemail" required id="cbxemail" placeholder="Your Email" class="form-control">
+                                                            <label for="email">Email</label>
+                                                            <input type="email" name="email" required id="cbxemail" placeholder="Your Email" class="form-control">
                                                         </div>
                                                     </div>
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <label for="cbxsubject">Subject</label>
-                                                    <input type="text" name="cbxsubject" id="cbxsubject" placeholder="Subject" class="form-control">
+                                                    <label for="subject">Subject</label>
+                                                    <input type="text" name="subject" id="cbxsubject" placeholder="Subject" class="form-control">
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <label for="cbxmessage">Message</label>
-                                                    <textarea name="cbxmessage" id="cbxmessage" rows="10" cols="80" placeholder="Your Message" class="form-control"></textarea>
+                                                    <label for="message">Message</label>
+                                                    <textarea name="message" id="cbxmessage" rows="10" cols="80" placeholder="Your Message" class="form-control"></textarea>
                                                 </div>
                                                 <div class="p-0">
                                                     <div class="form-group">
