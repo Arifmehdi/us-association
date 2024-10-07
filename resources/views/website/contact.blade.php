@@ -41,61 +41,74 @@
                                     <div class="col-lg-6 m-auto">
                                         <div class="contact-form-wrap">
                                             <h3>Send Message</h3>
-                                            <form action="{{ route('contact.store') }}" id="cbx-contact-form" method="post">
-                                                @csrf
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <div class="form-group">
-                                                            <label for="name">Name</label>
-                                                            <input type="text" name="name" required id="cbxname" placeholder="Your Full Name" class="form-control">
-                                                        </div>
-                                                    </div>
-                                                    <div class="col">
-                                                        <div class="form-group">
-                                                            <label for="email">Email</label>
-                                                            <input type="email" name="email" required id="cbxemail" placeholder="Your Email" class="form-control">
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="subject">Subject</label>
-                                                    <input type="text" name="subject" id="cbxsubject" placeholder="Subject" class="form-control">
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="message">Message</label>
-                                                    <textarea name="message" id="cbxmessage" rows="10" cols="80" placeholder="Your Message" class="form-control"></textarea>
-                                                </div>
-                                                <div class="p-0">
-                                                    <div class="form-group">
-                                                        <p style="color:rgb(32, 32, 31); font-weight:bold; font-size:12px; margin-bottom:13px; margin-top:10px">
-                                                            <span class="text-danger">*</span> Security Question (Enter the Correct answer)
-                                                        </p>
-                                                        <div style="display: flex;">
-                                                            <div id="captchaLabelSign" style="background-color:rgb(5, 145, 145); width:100%; margin-right:10px; text-align:center; padding-top:7px; font-weight:600; margin-top:2px; height:42px; border-radius:5px; color:white">
-                                                                {{ app('mathcaptcha')->label(true) }}
+                                            <form action="{{ route('contact.store') }}" method="post">
+                                                    @csrf
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <label for="name">Name</label>
+                                                                <input type="text" name="name"  id="name" placeholder="Your Full Name" class="form-control">
+                                                                @if ($errors->has('name'))
+                                                                    <span class="text-danger">{{ $errors->first('name') }}</span>
+                                                                @endif
                                                             </div>
-                                                            <div>
-                                                                <input id="captchaInputSign" style="width:100%; border-radius:5px" class="form-control" type="text"
-                                                                    name="mathcaptcha" id="mathcaptcha" placeholder="Your answer">
-                                                                @if ($errors->has('mathcaptcha'))
-                                                                    <span id="Smathcaptcha" class="text-danger" role="alert">
-                                                                        {{ $errors->first('mathcaptcha') }}
-                                                                    </span>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div class="form-group">
+                                                                <label for="email">Email</label>
+                                                                <input type="email" name="email"  id="email" placeholder="Your Email" class="form-control">
+                                                                @if ($errors->has('email'))
+                                                                    <span class="text-danger">{{ $errors->first('email') }}</span>
                                                                 @endif
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                {{-- <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="cbxsendme" name="cbxsendme" value="on">
-                                                    <label class="custom-control-label" for="cbxsendme">Send Me CC</label>
-                                                </div> --}}
 
-                                                <button class="btn btn-reg">Send</button>
-                                                <div id="cbx-formalert"></div>
-                                            </form>
+                                                    <div class="form-group">
+                                                        <label for="subject">Subject</label>
+                                                        <input type="text" name="subject" id="subject" placeholder="Subject" class="form-control">
+                                                        @if ($errors->has('subject'))
+                                                            <span class="text-danger">{{ $errors->first('subject') }}</span>
+                                                        @endif
+                                                    </div>
+
+                                                    <div class="form-group">
+                                                        <label for="message">Message</label>
+                                                        <textarea name="message" id="message" rows="10" cols="80" placeholder="Your Message" class="form-control"></textarea>
+                                                        @if ($errors->has('message'))
+                                                            <span class="text-danger">{{ $errors->first('message') }}</span>
+                                                        @endif
+                                                    </div>
+                                                    <div class="p-0">
+                                                        <div class="form-group">
+                                                            <p style="color:rgb(32, 32, 31); font-weight:bold; font-size:12px; margin-bottom:13px; margin-top:10px">
+                                                                <span class="text-danger">*</span> Security Question (Enter the Correct answer)
+                                                            </p>
+                                                            <div style="display: flex;">
+                                                                <div id="captchaLabelSign" style="background-color:rgb(5, 145, 145); width:100%; margin-right:10px; text-align:center; padding-top:7px; font-weight:600; margin-top:2px; height:42px; border-radius:5px; color:white">
+                                                                    {{ app('mathcaptcha')->label(true) }}
+                                                                </div>
+                                                                <div>
+                                                                    <input id="captchaInputSign" style="width:100%; border-radius:5px" class="form-control" type="text"
+                                                                        name="mathcaptcha" id="mathcaptcha" placeholder="Your answer">
+                                                                    @if ($errors->has('mathcaptcha'))
+                                                                    <span id="Smathcaptcha" class="text-danger" role="alert">
+                                                                        {{ $errors->first('mathcaptcha') }}
+                                                                    </span>
+                                                                    @endif
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    {{-- <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="cbxsendme" name="cbxsendme" value="on">
+                                                                <label class="custom-control-label" for="cbxsendme">Send Me CC</label>
+                                                            </div> --}}
+
+                                                    <button class="btn btn-reg">Send</button>
+                                                    
+                                                    <div id="cbx-formalert"></div>
+                                                </form>
                                         </div>
                                     </div>
                                 </div>
