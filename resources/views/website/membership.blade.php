@@ -120,7 +120,7 @@
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_zip_code">Zip Code</label>
-                                                                        <input type="text" class="form-control" id="register_zip_code" name="register_zip_code" />
+                                                                        <input type="number" class="form-control" id="register_zip_code" name="register_zip_code" />
                                                                     </div>
                                                                 </div>
 
@@ -135,7 +135,7 @@
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_store_phone">Store Phone</label>
-                                                                        <input type="text" class="form-control" id="register_store_phone" name="register_store_phone"/>
+                                                                        <input type="number" class="form-control" id="register_store_phone" name="register_store_phone"/>
                                                                     </div>
                                                                 </div>
 
@@ -150,7 +150,7 @@
                                                                 <div class="col-12 col-sm-6">
                                                                     <div class="form-group">
                                                                         <label for="register_cell_phone">Cell Phone </label>
-                                                                        <input type="text" class="form-control" id="register_cell_phone" name="register_cell_phone" />
+                                                                        <input type="number" class="form-control" id="register_cell_phone" name="register_cell_phone" />
                                                                     </div>
                                                                 </div>
 

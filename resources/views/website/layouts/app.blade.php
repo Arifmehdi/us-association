@@ -68,6 +68,12 @@
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet" />
 
+    <!-- Include Toastr CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include Toastr JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
 
 
@@ -97,6 +103,23 @@
     </div>
     <!-- /#site -->
 
+        <script>
+        $(document).ready(function() {
+            @if (session('success'))
+                toastr.success('{{ session('success') }}', 'Success', {
+                    closeButton: true,
+                    progressBar: true,
+                });
+            @endif
+
+            @if (session('error'))
+                toastr.error('{{ session('error') }}', 'Error', {
+                    closeButton: true,
+                    progressBar: true,
+                });
+            @endif
+        });
+    </script>
 
     <!-- Dependency Scripts -->
     <script id="script-bundle" src="{{ asset('frontend/assets/vendors/js/bundle.js') }}"></script>
