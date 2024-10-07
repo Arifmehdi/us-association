@@ -1895,7 +1895,7 @@ blockquote:before {
     margin-top: 10px;
 }
 .event-page-content-wrap {
-    background-color: #ecf1f5;
+    background-color: #fcfcfc;
 }
 .event-page-content-wrap .all-event-list {
     margin-top: -30px;
@@ -2447,7 +2447,8 @@ blockquote:before {
 }
 #page-content-wrap .about-page-content-wrap {
     
-    background-color: #ecf1f5;
+    background-color: #fdfcfc;
+    margin-top:95px;
 }
 #page-content-wrap .about-page-content-wrap .single-about-text {
     
@@ -3347,8 +3348,8 @@ blockquote:before {
     color: #fff;
 }
 .contact-content-inner {
-    -webkit-box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+    /* -webkit-box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1); */
 }
 .contact-content-inner .map-area-wrap {
     height: 100%;
@@ -4324,12 +4325,21 @@ blockquote:before {
         line-height: 1;
     }
     #page-content-wrap .about-page-content-wrap {
-        padding-top: 130px;
+        padding-top: 0px;
+    }
+    .second{
+        margin-top:0px !important;
+    }
+    .about-title{
+        font-size:30px !important;
     }
     #page-content-wrap .about-page-content-wrap .single-about-text {
         
         font-size: 14px;
         font-size: 1.4rem;
+        width:100% !important;
+        margin-left:4px !important;
+        margin-right:4px !important;
     }
     #page-content-wrap .about-page-content-wrap .single-about-text .year {
         font-size: 72px;
