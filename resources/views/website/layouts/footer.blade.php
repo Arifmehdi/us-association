@@ -12,9 +12,9 @@
                                 <p>
                                     AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships.
                                 </p>
-                                <a href="callto:+1 251-776-3546">Phone: +1 251-776-3546</a>
+                                <!-- <a href="callto:+1 251-776-3546">Phone: +1 251-776-3546</a> -->
                                 {{-- <a href="#">Fax: +88474 156 362</a> <br /> --}}
-                                <a href="mailto:vishalpatel@aasoaal.com">Email: vishalpatel@aasoaal.com</a>
+                                <!-- <a href="mailto:vishalpatel@aasoaal.com">Email: vishalpatel@aasoaal.com</a> -->
                                 <br>
                                 <a href="https://www.facebook.com/aasoaalabama" target="_blank"><i class="fab fa-facebook-f" ></i> <span> Facebook</span></a>
                             </div>

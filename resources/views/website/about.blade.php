@@ -17,7 +17,7 @@
                             <p>
                                 AASOA of Alabama about us section. 
                             </p>
-                            <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
+                            <!-- <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                         </div>
                     </div>
                 </div>

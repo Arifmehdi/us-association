@@ -78,7 +78,7 @@
     <div class="slider-active-wrap owl-carousel text-center text-md-start">
 
 
-        <div class="single-slide-wrap slider-bac-first" style="">
+        <!-- <div class="single-slide-wrap slider-bac-first" style="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-9 col-sm-12">
@@ -93,7 +93,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="single-slide-wrap slider-fifth" style="">
             <div class="container">
@@ -104,7 +104,7 @@
                             <h3>Join Us <span>June 5th 2025</span></h3>
                             <p>Alabama's only Buying Trade show.</p>
                             <p>At Renaissance  Convention Centre, Montgomery, AL.</p>
-                           
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScwmrBf9cIhn-xEQ60DmAys0Ib-xEcK8uKtPIu_EI2VBi_Upw/viewform" style="border-radius:5px" class="btn btn-brand about-btn mt-3" target=-"_blank">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
         </div>
 
 
-        <div class="single-slide-wrap " style="background-size: cover; background-position: center;
+        <!-- <div class="single-slide-wrap " style="background-size: cover; background-position: center;
         background-repeat: no-repeat;
         width:100%;
         height:600px; background-image:url({{ asset('frontend/assets/images/slider/b.jpg') }})">
@@ -130,9 +130,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="single-slide-wrap " style="background-size: cover; background-position: center;
+        <!-- <div class="single-slide-wrap " style="background-size: cover; background-position: center;
         background-repeat: no-repeat;
         width:100%;
         height:600px; background-image:url({{ asset('frontend/assets/images/slider/l.jpg') }})">
@@ -153,9 +153,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="single-slide-wrap fourth-slide" style="">
+        <!-- <div class="single-slide-wrap fourth-slide" style="">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9">
@@ -173,10 +173,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-       
-
+        </div> -->
     </div>
 
     {{-- <div class="social-networks-icon">
@@ -320,13 +317,13 @@
     <div class="container mb-5">
         <div style="margin-top:40px" class="row">
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <button style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" class="btn w-100 mb-4">Attendee Registration</button>
+                <!-- <button style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" class="btn w-100 mb-4">Attendee Registration</button> -->
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <button style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" class="btn w-100 mb-4">Sunshine Expo 2024</button>
+                <a style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" href="{{ route('event.details') }}" class="btn w-100 mb-4">Gulf Cost Expo 2025</a>
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <button style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" class="btn w-100">Exhibitor Registration</button>
+                <a style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" href="https://docs.google.com/forms/d/e/1FAIpQLScwmrBf9cIhn-xEQ60DmAys0Ib-xEcK8uKtPIu_EI2VBi_Upw/viewform" target="_blank" class="btn w-100">Exhibitor Registration</a>
             </div>
         </div>
     </div>
