@@ -24,9 +24,9 @@ class HomeController extends Controller
     {
         return view('website.event');
     }
-    public function details()
+    public function event_details()
     {
-        return view('website.details');
+        return view('website.event_details');
     }
     public function blog_details()
     {

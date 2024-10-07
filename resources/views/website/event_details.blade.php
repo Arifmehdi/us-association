@@ -142,19 +142,21 @@
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                             <h5 class="mt-5 mb-5" style="font-size:22px;">Expo Contact</h5>
-                            <p>Email Us: omor@gmail.com</p>
-                            <p class="mb-5">call Us: omor@gmail.com</p>
-                            <a style="width:93%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px; background:rgb(2, 147, 167); color:white" class="btn">Exhibitor Registration</a>
-                            <a style="width:93%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px; background:rgb(173, 70, 10); color:white" class="btn">AASOA - Expo Kit</a>
+                            <p>Email Us: aasoaofalabama@gmail.com
+                                
+                            </p> 
+                            <p class="mb-5">Call Us: 251-776-3546(Vishal)</p>
+                            <a style="width:93%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px; background:rgb(2, 147, 167); color:white" class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScwmrBf9cIhn-xEQ60DmAys0Ib-xEcK8uKtPIu_EI2VBi_Upw/viewform" target="_blank">Exhibitor Registration</a>
+                            <a style="width:93%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px; background:rgb(173, 70, 10); color:white" class="btn" href="{{ asset('frontend/assets/document/AASOA_Exhibitor_2025.pdf') }}" target="_blank">AASOA - Expo Kit</a>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                             <img style="width:100%; height:450px" src="{{ asset('frontend/assets/images/slider/t1.jpg') }}" alt="Description of the image" />
 
                             <h5 class="mt-5 mb-5" style="font-size:22px;">Expo Directory</h5>
                             <a style="width:100%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px" class="btn">Expo 2025</a>
-                            <a style="width:100%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px" class="btn">Expo 2024</a>
+                            <!-- <a style="width:100%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px" class="btn">Expo 2024</a>
                             <a style="width:100%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px" class="btn">Expo 2023</a>
-                            <a style="width:100%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px" class="btn">Expo 2022</a>
+                            <a style="width:100%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px" class="btn">Expo 2022</a> -->
 
                         </div>
                     </div>
