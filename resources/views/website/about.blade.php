@@ -56,18 +56,10 @@
                 </div>
             </div>
 
-
-        </div>
-    </div>
-</section>
-
-
-<section id="page-content-wrap">
-    <div class="about-page-content-wrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 m-auto">
-
+        
+        <section id="page-content-wrap">
+            <div class="about-page-content-wrap section-padding">
+                <div class="container">
                     <div class="row">
 
                         <div class="col-lg-6 mb-4">
