@@ -30,7 +30,7 @@ Route::get('/gulf-coast-expo-2025',[HomeController::class,'details'])->name('eve
 Route::get('/gallery',[HomeController::class,'gallery'])->name('gallery');
 Route::get('/blog',[HomeController::class,'blog'])->name('blog');
 Route::get('/blog/details',[HomeController::class,'blog_details'])->name('blog.details');
-Route::get('/sponsorship',[HomeController::class,'sponsorship'])->name('sponsorship');
+// Route::get('/sponsorship',[HomeController::class,'sponsorship'])->name('sponsorship');
 Route::get('/membership',[HomeController::class,'membership'])->name('membership');
 Route::get('/vendor',[HomeController::class,'vendor'])->name('vendor');
 Route::get('/contact',[HomeController::class,'contact'])->name('contact');

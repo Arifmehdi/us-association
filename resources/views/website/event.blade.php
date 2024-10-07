@@ -9,11 +9,11 @@
                 <div class="row">
                     <div class="col-lg-8 m-auto text-center">
                         <div class="page-title-content">
-                            <h1 class="h2">All Event Archive</h1>
+                            <h1 class="h2">All Events</h1>
                             <p>
-                                AASOA of Alabama offers opportunities for our upcoming event.
+                            AASOA of Alabama offers opportunities for retailers as well as suppliers. 
                             </p>
-                            <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
+                            <!-- <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                         </div>
                     </div>
                 </div>
