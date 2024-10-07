@@ -57,6 +57,7 @@ class HomeController extends Controller
             'terms' => 'nullable',
             'mathcaptcha' => 'required|mathcaptcha',
         ]);
+        
         dd($validatedData);
     }
 
