@@ -1026,6 +1026,18 @@ blockquote:before {
     .mess{
         margin-top:15px; 
     }
+    #footer-area .footer-widget .single-widget-wrap .widget-title {
+        color: #fff;
+        font-weight: 700;
+        font-size: 22px;
+        font-size: 2.2rem;
+        margin-bottom: 35px;
+        text-align:center;
+        
+    }
+    .content{
+        text-align:center;  
+    }
 }
 .site-header .site-logo img {
     max-width: 250px;
@@ -3838,6 +3850,7 @@ blockquote:before {
     font-size: 22px;
     font-size: 2.2rem;
     margin-bottom: 35px;
+    
 }
 #footer-area .footer-widget .single-widget-wrap .footer-about p {
     margin-bottom: 30px;

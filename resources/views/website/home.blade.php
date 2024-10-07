@@ -387,7 +387,7 @@
             <!--== Single Responsibility Start ==-->
             <div class="col-lg-4 col-sm-6">
                 <div class="single-responsibility"
-                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);border-radius:6px">
                     <img src="{{ asset('frontend/assets/images/responsibility/01.png') }}" alt="Responsibility"
                         style="max-width: 100%; height: auto;">
                     <h5 class="mt-4">About US</h5>
@@ -405,7 +405,7 @@
             <!--== Single Responsibility Start ==-->
             <div class="col-lg-4 col-sm-6">
                 <div class="single-responsibility"
-                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border-radius:6px">
                     <img src="{{ asset('frontend/assets/images/responsibility/02.png') }}" alt="Responsibility"
                         style="max-width: 100%; height: auto;">
                     <h5 class="mt-4">Membership</h5>
@@ -424,7 +424,7 @@
             <!--== Single Responsibility Start ==-->
             <div class="col-lg-4 col-sm-6">
                 <div class="single-responsibility"
-                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);border-radius:6px">
                     <img src="{{ asset('frontend/assets/images/responsibility/03.png') }}" alt="Responsibility"
                         style="max-width: 100%; height: auto;">
                     <h5 class="mt-4">Mission</h5>
@@ -441,7 +441,7 @@
             <!--== Single Responsibility Start ==-->
             <div class="col-lg-4 col-sm-6">
                 <div class="single-responsibility"
-                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);border-radius:6px">
                     <img src="{{ asset('frontend/assets/images/responsibility/04.png') }}" alt="Responsibility"
                         style="max-width: 100%; height: auto;">
                     <h5 class="mt-4">2025 Gulf Coast Expo</h5>
@@ -461,7 +461,7 @@
             <!--== Single Responsibility Start ==-->
             <div class="col-lg-4 col-sm-6">
                 <div class="single-responsibility"
-                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);border-radius:6px">
                     <img src="{{ asset('frontend/assets/images/responsibility/03.png') }}" alt="Responsibility"
                         style="max-width: 100%; height: auto;">
                     <h5 class="mt-4">Sponsor</h5>
@@ -483,7 +483,7 @@
             <!--== Single Responsibility Start ==-->
             <div class="col-lg-4 col-sm-6">
                 <div class="single-responsibility"
-                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+                    style="min-width: 250px; max-width: 350px; min-height: 350px; height: auto; margin: 20px auto; border: 1px solid #ddd; padding: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);border-radius:6px">
                     <img src="{{ asset('frontend/assets/images/responsibility/02.png') }}" alt="Responsibility"
                         style="max-width: 100%; height: auto;">
                     <h5 class="mt-4">Blogs</h5>
