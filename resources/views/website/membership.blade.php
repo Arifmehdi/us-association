@@ -12,7 +12,7 @@
                             <p>
                                 AASOA of Alabama offers opportunities for retailers as well as suppliers.
                             </p>
-                            <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a>
+                            <!-- <a href="#page-content-wrap" class="btn btn-brand smooth-scroll">Let's See</a> -->
                         </div>
                     </div>
                 </div>

@@ -4,8 +4,8 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-sm-7 col-7">
                     <div class="preheader-left">
-                        <a href="mailto:vishalpatel@aasoaal.com"><strong>Email:</strong> vishalpatel@aasoaal.com</a>
-                        <a href="callto:251-776-3546"><strong>Contact: </strong>251-776-3546</a>
+                        <!-- <a href="mailto:vishalpatel@aasoaal.com"><strong>Email:</strong> vishalpatel@aasoaal.com</a>
+                        <a href="callto:251-776-3546"><strong>Contact: </strong>251-776-3546</a> -->
                         <a href="https://www.facebook.com/aasoaalabama" target="_blank"><i class="fab fa-facebook-f" ></i> <span> Facebook</span></a>
                     </div>
                 </div>
@@ -72,10 +72,10 @@
                             </ul>
                         </li>
                         {{-- <li><a href="{{ route('sponsorship') }}">Sponsorship</a></li> --}}
-                        <li><a href="{{route('sponsorship')}}">Sponsors</a></li>
+                        {{--<li><a href="{{route('sponsorship')}}">Sponsors</a></li>--}}
                         <li><a href="{{ route('membership') }}">Membership</a></li>
-                        <li><a href="{{ route('gallery') }}">Gallery</a></li>
-                        <li><a href="{{ route('blog') }}">Blog</a></li>
+                        {{--<li><a href="{{ route('gallery') }}">Gallery</a></li>--}}
+                        {{--<li><a href="{{ route('blog') }}">Blog</a></li>--}}
                         <li class="has-submenu menu-item-depth-0">
                             <a href="#">Help</a>
                             <ul class="sub-menu">
