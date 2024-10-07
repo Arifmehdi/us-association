@@ -64,7 +64,7 @@
 
         
         <section id="page-content-wrap">
-            <div class="about-page-content-wrap">
+            <div class="about-page-content-wrap section-padding">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 m-auto">
