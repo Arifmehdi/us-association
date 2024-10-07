@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use App\Models\Members;
 use App\Models\User;
 use Illuminate\Http\Request;
@@ -42,7 +43,7 @@ class HomeController extends Controller
         return view('website.membership');
     }
 
-    public function membership_form(Request $request)
+    public function membership_store(Request $request)
     {
 
         $validatedData = $request->validate([
@@ -102,6 +103,38 @@ class HomeController extends Controller
     public function contact()
     {
         return view('website.contact');
+    }
+
+    public function contact_store(Request $request)
+    {
+        $request->validate([
+            "name" => 'required|string|max:255',
+            'email' => 'required|email',
+            "subject" => 'required|string|max:255',
+            "message" => 'required',
+            "mathcaptcha" => 'required'
+        ]);
+
+        $trimmedMessage = trim($request->message);
+        $sanitizedMessage = htmlspecialchars($trimmedMessage, ENT_QUOTES, 'UTF-8');
+
+
+        $user = User::where('email',trim($request->email))->first();
+        $userId = Null;
+        if($user){
+            $userId = $user->id;
+        }
+
+        $contact = new Contact();
+        $contact->sender_id = $userId;
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->subject = $request->subject;
+        $contact->name = $request->name;
+        $contact->message = $sanitizedMessage;
+        $contact->save();
+        
+        return redirect()->back()->with('success', 'Member registered successfully!');
     }
 
     public function blog()
