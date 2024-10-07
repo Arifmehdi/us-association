@@ -6,6 +6,8 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Session;
 
 class AuthController extends Controller
 {
@@ -45,8 +47,8 @@ class AuthController extends Controller
 
     public function logout()
     {
-        \Session::flush();
-        \Auth::logout();
+        Session::flush();
+        Auth::logout();
         return redirect(route('login'));
     }
 
@@ -74,10 +76,10 @@ class AuthController extends Controller
             'lname' => $request->lname,
             'name' => $name,
             'email' => $request->email,
-            'password' => \Hash::make($request->password),
+            'password' => Hash::make($request->password),
         ]);
 
-        if(\Auth::attempt($request->only('email','password'))){
+        if(Auth::attempt($request->only('email','password'))){
             return redirect(route('admin.dashboard'));
         }
 
