@@ -63,6 +63,7 @@
     <link id="style-bundle" rel="stylesheet" href="{{ asset('frontend/assets/vendors/css/bundle.css') }}" type="text/css" />
     <!-- Site Stylesheet -->
     <link id="cbx-style" rel="stylesheet" href="{{ asset('frontend/assets/css/style-default.css') }}" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet" />
