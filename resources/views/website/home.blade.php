@@ -104,7 +104,7 @@
                             <h3>Join Us <span>June 5th 2025</span></h3>
                             <p>Alabama's only Buying Trade show.</p>
                             <p>At Renaissance  Convention Centre, Montgomery, AL.</p>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScwmrBf9cIhn-xEQ60DmAys0Ib-xEcK8uKtPIu_EI2VBi_Upw/viewform" style="border-radius:5px" class="btn btn-brand about-btn mt-3" target=-"_blank">Read More</a>
+                            <a href="{{ asset('frontend/assets/document/AASOA_Exhibitor_2025.pdf') }}" style="border-radius:5px" class="btn btn-brand about-btn mt-3" target=-"_blank">Read More</a>
                         </div>
                     </div>
                 </div>
