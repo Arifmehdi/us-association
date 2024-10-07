@@ -12,10 +12,10 @@
                                 <p>
                                     AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships.
                                 </p>
-                                <!-- <a href="callto:+1 251-776-3546">Phone: +1 251-776-3546</a> -->
-                                {{-- <a href="#">Fax: +88474 156 362</a> <br /> --}}
-                                <!-- <a href="mailto:vishalpatel@aasoaal.com">Email: vishalpatel@aasoaal.com</a> -->
-                                <br>
+                                {{-- <a href="#">Fax: +88474 156 362</a> <br /> 
+                                <a href="callto:+1 251-776-3546">Phone: +1 251-776-3546</a> 
+                                <a href="mailto:vishalpatel@aasoaal.com">Email: vishalpatel@aasoaal.com</a>--}}
+
                                 <a href="https://www.facebook.com/aasoaalabama" target="_blank"><i class="fab fa-facebook-f" ></i> <span> Facebook</span></a>
                             </div>
                         </div>
@@ -28,16 +28,18 @@
                     <div class="single-widget-wrap">
                         <h4 class="widget-title">Usefull Link</h4>
                         <div class="widgei-body">
-                            <ul class="double-list footer-list clearfix">
-                                <li><a href="#">Mission</a></li>
-                                <li><a href="#">Chairman Message</a></li>
-                                <li><a href="{{ route('event') }}">Expo</a></li>
-                                <li><a href="#">Sponsor</a></li>
+                            <!-- <ul class="double-list footer-list clearfix"> -->
+                            <ul class=" footer-list clearfix">
+                                <li><a href="{{ route('event') }}">Events</a></li>
                                 <li><a href="{{ route('membership') }}">Membership</a></li>
-                                <li><a href="#">Pricing Plan</a></li>
-                                <li><a href="{{ route('gallery') }}">Gallery</a></li>
-                                <li><a href="#">Sister Association</a></li>
-                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
+                                <li><a href="{{ route('about') }}">About Us</a></li>
+
+                                {{--<li><a href="{{ route('gallery') }}">Gallery</a></li>
+                                <li><a href="#">Mission</a></li>
+                                <li><a href="#">Chairman Message</a></li> 
+                                <li><a href="#">Sponsor</a></li>
+                                 <li><a href="#">Pricing Plan</a></li>
+                                <li><a href="#">Sister Association</a></li>--}}
                             </ul>
                         </div>
                     </div>

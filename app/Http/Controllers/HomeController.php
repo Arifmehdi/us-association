@@ -39,6 +39,27 @@ class HomeController extends Controller
         return view('website.membership');
     }
 
+    public function membership_form(Request $request)
+    {
+
+        $validatedData = $request->validate([
+            'register_name' => 'required|string|max:255',
+            'register_email' => 'required|email',
+            'register_address' => 'nullable|string|max:255',
+            'register_city' => 'nullable|string|max:255',
+            'register_state' => 'nullable|string|max:255',
+            'register_zip_code' => 'nullable|string|max:10',
+            'register_company_name' => 'nullable|string|max:255',
+            'register_store_phone' => 'nullable|string|max:20',
+            'register_cell_phone' => 'nullable|string|max:20',
+            'business_type' => 'required|array',
+            'register_num_store' => 'nullable|integer|min:0',
+            'terms' => 'nullable',
+            'mathcaptcha' => 'required|mathcaptcha',
+        ]);
+        dd($validatedData);
+    }
+
     public function vendor()
     {
         return view('website.vendor');
