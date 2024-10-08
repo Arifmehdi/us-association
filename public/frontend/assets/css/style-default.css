@@ -1038,6 +1038,13 @@ blockquote:before {
     .content{
         text-align:center;  
     }
+    .event-page-content-wrap{
+        padding-top: 10px !important;
+    }
+    .register-page-inner{
+        padding: 1px 0 50px !important;
+
+    }
 }
 .site-header .site-logo img {
     max-width: 320px;
@@ -1045,7 +1052,7 @@ blockquote:before {
 }
 @media (max-width: 991px) {
     .site-header .site-logo img {
-        max-width: 150px;
+        max-width: 290px;
     }
 }
 .site-header .site-logo .site-title {

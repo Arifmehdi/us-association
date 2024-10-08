@@ -315,18 +315,20 @@
 
 <section>
     <div class="container mb-5">
-        <div style="margin-top:40px" class="row">
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <!-- <button style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" class="btn w-100 mb-4">Attendee Registration</button> -->
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <a href="{{ route('event.details') }}" class="btn w-100 mb-4" style="background: #dd9933; height: 45px; line-height: 30px; border-radius: 5px; font-size: 16px; color: rgb(39, 38, 38);">
+                    <i class="fa fa-globe me-3"></i> Gulf Coast Expo 2025
+                </a>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <a style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" href="{{ route('event.details') }}" class="btn w-100 mb-4">Gulf Cost Expo 2025</a>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-                <a style="background:#dd9933; height:45px; border-radius:5px; font-size:16px; color:rgb(39, 38, 38)" href="https://docs.google.com/forms/d/e/1FAIpQLScwmrBf9cIhn-xEQ60DmAys0Ib-xEcK8uKtPIu_EI2VBi_Upw/viewform" target="_blank" class="btn w-100">Exhibitor Registration</a>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-5">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScwmrBf9cIhn-xEQ60DmAys0Ib-xEcK8uKtPIu_EI2VBi_Upw/viewform" target="_blank" class="btn w-100" style="background: #dd9933; height: 45px; line-height: 30px; border-radius: 5px; font-size: 16px; color: rgb(39, 38, 38);">
+                    <i class="fa fa-id-card me-3"></i> Exhibitor Registration
+                </a>
             </div>
         </div>
     </div>
+    
 </section>
 
 
