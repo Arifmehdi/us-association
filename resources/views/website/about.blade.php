@@ -57,49 +57,50 @@
             </div>
 
         
-        <section id="page-content-wrap">
-            <div class="about-page-content-wrap section-padding">
-                <div class="container">
-                    <div class="row">
+        
+    </div>
+</section>
+<section id="page-content-wrap">
+    <div class="about-page-content-wrap section-padding">
+        <div class="container">
+            <div class="row">
 
-                        <div class="col-lg-6 mb-4">
-                            <div style="position: relative; overflow: hidden;">
-                                <div style="width: 96%; height: 250px; border: 2px solid rgb(3, 194, 201); border-radius: 10px; margin-top: 55px; margin-left: 15px;">
-                                    <!-- Optional content inside the border div can go here -->
-                                </div>
-                                <img src="{{ asset('frontend/assets/images/about-page/about-img-1.jpg') }}"
-                                    alt="About" class="img-fluid img-right"
-                                    style="position: absolute; top: -42px; left: 0; height: calc(100% + 40px); width: 100%; object-fit: cover; -webkit-filter: grayscale(0); filter: grayscale(0);">
-                            </div>
+                <div class="col-lg-6 mb-4">
+                    <div style="position: relative; overflow: hidden;">
+                        <div style="width: 96%; height: 250px; border: 2px solid rgb(3, 194, 201); border-radius: 10px; margin-top: 55px; margin-left: 15px;">
+                            <!-- Optional content inside the border div can go here -->
                         </div>
-
-                        <div class="col-lg-6 mb-4">
-                            <div style="width:95%; margin-top:55px; margin-left:25px" class="single-about-text">
-                                <h3 style="font-weight:600" class="about-title">AASOA Chairman's message</h3>
-                                <p>Allow me to thank you for giving me the opportunity to serve as a Trustee Chairman of one of the most vibrant organizations in Alabama.</p>
-                                <p>I will do my best to achieve the goals established by the Asian American Store Owners Association with support from the executive committee and advisory board members.</p>
-                            </div>
-                        </div>
+                        <img src="{{ asset('frontend/assets/images/about-page/about-img-1.jpg') }}"
+                            alt="About" class="img-fluid img-right"
+                            style="position: absolute; top: -42px; left: 0; height: calc(100% + 40px); width: 100%; object-fit: cover; -webkit-filter: grayscale(0); filter: grayscale(0);">
                     </div>
+                </div>
 
-                    <div style="margin-top:125px" class="row second">
-                        <div style="" class="col-lg-6 mb-4">
-                            <div style="width:95%; margin-top:55px; margin-right:25px" class="single-about-text">
-                                <h3 style="font-weight:600" class="about-title">Our First Achievement in History</h3>
-                                <p>AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships. By continually striving to develop benefits for our members through our Preferred.</p>
-                                <p>To constantly strive to meet or exceed our customer needs and expectations of price, service, and selection. To this end, we will perform periodic reviews of the marketplace to improve our offerings. AASOA of Alabama was established in 2012 and we are very fortunate to be able to serve local business owners.</p>
-                            </div>
+                <div class="col-lg-6 mb-4">
+                    <div style="width:95%; margin-top:55px; margin-left:25px" class="single-about-text">
+                        <h3 style="font-weight:600" class="about-title">AASOA Chairman's message</h3>
+                        <p>Allow me to thank you for giving me the opportunity to serve as a Trustee Chairman of one of the most vibrant organizations in Alabama.</p>
+                        <p>I will do my best to achieve the goals established by the Asian American Store Owners Association with support from the executive committee and advisory board members.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-top:125px" class="row second">
+                <div style="" class="col-lg-6 mb-4">
+                    <div style="width:95%; margin-top:55px; margin-right:25px" class="single-about-text">
+                        <h3 style="font-weight:600" class="about-title">Our First Achievement in History</h3>
+                        <p>AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships. By continually striving to develop benefits for our members through our Preferred.</p>
+                        <p>To constantly strive to meet or exceed our customer needs and expectations of price, service, and selection. To this end, we will perform periodic reviews of the marketplace to improve our offerings. AASOA of Alabama was established in 2012 and we are very fortunate to be able to serve local business owners.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div style="position: relative;">
+                        <div style="width: 96%; height: 400px; border: 2px solid rgb(3, 194, 201); border-radius: 10px; overflow: hidden; margin-top: 55px; margin-left: 15px;">
+                            <!-- Optional content inside the border div can go here -->
                         </div>
-                        <div class="col-lg-6 mb-4">
-                            <div style="position: relative;">
-                                <div style="width: 96%; height: 400px; border: 2px solid rgb(3, 194, 201); border-radius: 10px; overflow: hidden; margin-top: 55px; margin-left: 15px;">
-                                    <!-- Optional content inside the border div can go here -->
-                                </div>
-                                <img style="position: absolute; top: -52px; left: 0; height: calc(100% + 48px); width: 100%; object-fit: cover; border-right-bottom-radius: 27px;"
-                                    src="{{ asset('frontend/assets/images/about-page/about-img-2.jpg') }}"
-                                    alt="About" class="img-fluid img-right">
-                            </div>
-                        </div>
+                        <img style="position: absolute; top: -52px; left: 0; height: calc(100% + 48px); width: 100%; object-fit: cover; border-right-bottom-radius: 27px;"
+                            src="{{ asset('frontend/assets/images/about-page/about-img-2.jpg') }}"
+                            alt="About" class="img-fluid img-right">
                     </div>
                 </div>
             </div>

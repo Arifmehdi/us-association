@@ -6,6 +6,7 @@ use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Admin\SponsorController;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\SocialController;
+use App\Http\Controllers\CaptchaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,6 +37,8 @@ Route::post('/membership',[HomeController::class,'membership_store'])->name('mem
 Route::get('/vendor',[HomeController::class,'vendor'])->name('vendor');
 Route::get('/contact',[HomeController::class,'contact'])->name('contact');
 Route::post('/contact',[HomeController::class,'contact_store'])->name('contact.store');
+
+Route::get('/refresh-captcha', [CaptchaController::class, 'refreshCaptcha']);
 
 
 

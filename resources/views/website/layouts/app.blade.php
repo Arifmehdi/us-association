@@ -119,6 +119,28 @@
                 });
             @endif
         });
+
+        function refreshCaptcha() {
+    $.ajax({
+        url: '/refresh-captcha',
+        type: 'GET',
+        success: function(data) {
+            console.log(data);
+            $('#captchaLabel').html(data.label);
+            $('#captchaInput').val('');
+            $('#captchaLabelForm').html(data.label);
+            $('#captchaInputForm').val('');
+            $('#captchaLabelSign').html(data.label);
+            $('#captchaInputSign').val('');
+           
+           
+        },
+        error: function(xhr, status, error) {
+            console.error('Error refreshing captcha:', error);
+        }
+    });
+}
+refreshCaptcha();
     </script>
 
     <!-- Dependency Scripts -->

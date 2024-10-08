@@ -42,6 +42,8 @@ class AuthController extends Controller
             return redirect(route('admin.dashboard'));
         }
 
+       
+
         return redirect(route('login'))->withError('Login details are not valid !');
     }
 

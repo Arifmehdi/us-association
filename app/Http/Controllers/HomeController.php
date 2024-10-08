@@ -7,6 +7,9 @@ use App\Models\Members;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use ElicDev\MathCaptcha\Facades\MathCaptcha;
+
+
 
 class HomeController extends Controller
 {
@@ -90,6 +93,7 @@ class HomeController extends Controller
         $member->business_type  = json_encode($request->business_type);
         $member->number_of_store  = $request->register_num_store;
         $member->save();
+       
 
          
          return redirect()->back()->with('success', 'Member registered successfully!');
@@ -133,6 +137,7 @@ class HomeController extends Controller
         $contact->name = $request->name;
         $contact->message = $sanitizedMessage;
         $contact->save();
+        \MathCaptcha::generate();
         
         return redirect()->back()->with('success', 'Member registered successfully!');
     }
