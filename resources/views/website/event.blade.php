@@ -31,20 +31,13 @@
                                 <form action="#" class="form-inline d-flex">
                                     <select name="year" id="year">
                                         <option selected>Year</option>
-                                        <option>2018</option>
-                                        <option>2017</option>
-                                        <option>2016</option>
-                                        <option>2015</option>
-                                        <option>2014</option>
+                                        <option>2025</option>
+
                                     </select>
 
                                     <select name="place" id="place">
                                         <option selected>Place</option>
                                         <option>Alabama</option>
-                                        <option>Alaska</option>
-                                        <option>Arizona</option>
-                                        <option>Colorado</option>
-                                        <option>Delaware</option>
                                     </select>
 
                                     <select name="type" id="type">
@@ -100,7 +93,7 @@
                     </div>
 
                     <!-- Pagination Start -->
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-lg-12">
                             <div class="pagination-wrap text-center">
                                 <nav>
@@ -124,7 +117,7 @@
                                 </nav>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Pagination End -->
                 </div>
             </div>
