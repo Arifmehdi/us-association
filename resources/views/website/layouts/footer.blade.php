@@ -8,7 +8,7 @@
                     <div class="single-widget-wrap">
                         <div class="widget-body">
                             <div class="footer-about">
-                                <img src="{{ asset('frontend/assets/images/logo/log.png') }}" alt="Logo" class="" />
+                                <img src="{{ asset('frontend/assets/images/logo/flogo.png') }}" alt="Logo" class="" />
                                 <p class="content">
                                     AASOA of Alabama offers opportunities for retailers as well as suppliers to come together and strengthen business relationships.
                                 </p>
