@@ -35,8 +35,8 @@
             <nav id="site-navigation" class="main-nav">
                 <div class="site-logo">
                     <a href="{{ route('home') }}" class="logo">
-                        <img src="{{ asset('frontend/assets/images/logo/logo.svg') }}" alt="site logo" class="main-logo" />
-                        <img src="{{ asset('frontend/assets/images/logo/logo.svg') }}" alt="site logo" class="logo-sticky" />
+                        <img src="{{ asset('frontend/assets/images/logo/log.png') }}" alt="site logo" class="main-logo" />
+                        <img src="{{ asset('frontend/assets/images/logo/log.png') }}" alt="site logo" class="logo-sticky" />
                     </a>
 
                     <div class="burger-menu">

@@ -1040,7 +1040,8 @@ blockquote:before {
     }
 }
 .site-header .site-logo img {
-    max-width: 250px;
+    max-width: 320px;
+    height:100px;
 }
 @media (max-width: 991px) {
     .site-header .site-logo img {
