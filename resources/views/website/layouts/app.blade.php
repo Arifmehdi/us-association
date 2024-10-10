@@ -6,31 +6,31 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title> AASOA - Alabama</title>
+    <title>AASOA-AL |  The Asian American Store Owners Association of Alabama</title>
 
     <!-- twitter card starts from here, if you don't need remove this section -->
     <!-- <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@yourtwitterusername" />
     <meta name="twitter:creator" content="@yourtwitterusername" />
     <meta name="twitter:url" content="http://twitter.com/" />
-    <meta name="twitter:title" content="AASOA - Alabama" /> -->
+    <meta name="twitter:title" content="AASOA-AL |  The Asian American Store Owners Association of Alabama" />
+    <-- maximum 140 char -->
+    <meta name="twitter:description" content="AASOA-AL |  The Asian American Store Owners Association of Alabama" />
     <!-- maximum 140 char -->
-    <!-- <meta name="twitter:description" content="AASOA - Alabama is a assocciation for growth" /> -->
-    <!-- maximum 140 char -->
-    <!-- <meta name="twitter:image" content="{{ asset('frontend/assets/images/twittercardimg/twittercard-144-144.png') }}" /> -->
+    <meta name="twitter:image" content="{{ asset('frontend/assets/images/favicon/favicon.ico') }}" />
     <!-- when you post this page url in twitter , this image will be shown -->
     <!-- twitter card ends here -->
 
     <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
-    <!-- <meta property="og:title" content="AASOA ALABAMA" />
-    <meta property="og:url" content="http://your domain here.com" />
+    <meta property="og:title" content="AASOA-AL |  The Asian American Store Owners Association of Alabama" />
+    <meta property="og:url" content="https://alabamaaasoa.com/" />
     <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="AASOA ALABAMA" /> -->
+    <meta property="og:site_name" content="AASOA-AL" />
     <!--meta property="fb:admins" content="" /-->
     <!-- use this if you have  -->
-    <!-- <meta property="og:type" content="website" /> -->
+    <meta property="og:type" content="website" />
     <!-- 'article' for single page  -->
-    <!-- <meta property="og:image" content="{{ asset('frontend/assets/images/opengraph/fbphoto-476-476.png') }}" /> -->
+    <meta property="og:image" content="{{ asset('frontend/assets/images/favicon/favicon.ico') }}" />
     <!-- when you post this page url in facebook , this image will be shown -->
     <!-- facebook open graph ends here -->
 
@@ -44,7 +44,7 @@
     <!-- this icon shows in browser toolbar -->
     <link rel="icon" type="image/x-icon" href="{{ asset('frontend/assets/images/favicon/favicon.ico') }}" />
     <!-- this icon shows in browser toolbar -->
-    {{-- <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('frontend/assets/images/favicon/apple-icon-57x57.png') }}" />
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('frontend/assets/images/favicon/apple-icon-57x57.png') }}" />
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('frontend/assets/images/favicon/apple-icon-60x60.png') }}" />
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('frontend/assets/images/favicon/apple-icon-72x72.png') }}" />
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('frontend/assets/images/favicon/apple-icon-76x76.png') }}" />
@@ -56,7 +56,7 @@
     <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('frontend/assets/images/favicon/android-icon-192x192.png') }}" />
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('frontend/assets/images/favicon/favicon-32x32.png') }}" />
     <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('frontend/assets/images/favicon/favicon-96x96.png') }}" />
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('frontend/assets/images/favicon/favicon-16x16.png') }}" /> --}}
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('frontend/assets/images/favicon/favicon-16x16.png') }}" />
 
 
     <!-- Dependency Styles -->
