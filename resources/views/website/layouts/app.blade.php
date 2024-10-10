@@ -9,15 +9,15 @@
     <title>AASOA-AL |  The Asian American Store Owners Association of Alabama</title>
 
     <!-- twitter card starts from here, if you don't need remove this section -->
-    <!-- <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@yourtwitterusername" />
-    <meta name="twitter:creator" content="@yourtwitterusername" />
-    <meta name="twitter:url" content="http://twitter.com/" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@aasaoalal" />
+    <meta name="twitter:creator" content="@aasaoalal" />
+    <meta name="twitter:url" content="https://alabamaaasoa.com/" />
     <meta name="twitter:title" content="AASOA-AL |  The Asian American Store Owners Association of Alabama" />
-    <-- maximum 140 char -->
-    <meta name="twitter:description" content="AASOA-AL |  The Asian American Store Owners Association of Alabama" />
     <!-- maximum 140 char -->
-    <meta name="twitter:image" content="{{ asset('frontend/assets/images/favicon/favicon.ico') }}" />
+    <meta name="twitter:description" content="AASOA of Alabama offers opportunities for retailers and suppliers to strengthen business relationships." />
+    <!-- maximum 140 char -->
+    <meta name="twitter:image" content="{{ asset('frontend/assets/images/twittercardimg/twittercard-144-144.png') }}" />
     <!-- when you post this page url in twitter , this image will be shown -->
     <!-- twitter card ends here -->
 
@@ -26,7 +26,7 @@
     <meta property="og:url" content="https://alabamaaasoa.com/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:site_name" content="AASOA-AL" />
-    <!--meta property="fb:admins" content="" /-->
+    <!-- <meta property="fb:admins" content=""> -->
     <!-- use this if you have  -->
     <meta property="og:type" content="website" />
     <!-- 'article' for single page  -->
