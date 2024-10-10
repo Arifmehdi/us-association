@@ -101,7 +101,7 @@
                             <p class="mb-4 responsive-text">
                                 <span class="icon-text">
                                     <i class="fa fa-square-full icon"></i>
-                                    <span class="text">200+ Exhibitors are participating and growing every year since inception.</span>
+                                    <span class="text">100+ Exhibitors are participating and growing every year since inception.</span>
                                 </span>
                             </p>
                             
