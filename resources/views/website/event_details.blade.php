@@ -8,32 +8,32 @@
       font-size: 14px;
       line-height: 1.5;
     }
-  
+
     .icon-text {
       display: flex;
       align-items: flex-start; /* Aligns the icon and text at the start */
     }
-  
+
     .icon {
-      font-size: 5px; 
+      font-size: 5px;
       margin-right: 8px; /* Space between icon and text */
       margin-top:6px;
     }
-  
+
     .text {
-      display: inline-block; 
+      display: inline-block;
       width:86%;
     }
-  
+
     .text-line {
       padding-left: 16px; /* Indentation for the second line */
     }
-  
+
     @media (min-width: 768px) { /* Adjust for larger screens */
       .responsive-text {
         flex-direction: row; /* Align elements side by side */
       }
-      
+
       .text-line {
         padding-left: 0; /* Remove indentation for larger screens */
       }
@@ -49,8 +49,8 @@
                     <div class="col-lg-8 m-auto text-center">
                         <div class="page-title-content">
                             <h1 class="h2">Gulf coast Expo 2025</h1>
-                            
-                            
+
+
                         </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="event-countdown-details">
                         <div class="event-countdown-counter" data-date="2025/6/25"></div>
-                        
+
                     </div>
                     <div style="margin-top:120px">
                         <p style="font-size:25px; font-weight:bold">Gulf coast Expo 2025</p>
@@ -90,49 +90,49 @@
                     <div class="row">
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                             <h5 class="mt-5 mb-5" style="font-size:22px;">Expo Details</h5>
-                        
+
                             <p class="mb-4 responsive-text">
                                 <span class="icon-text">
                                     <i class="fa fa-square-full icon"></i>
                                     <span class="text">Largest & Only C Store Trade Expo of Alabama.</span>
                                 </span>
                             </p>
-                            
+
                             <p class="mb-4 responsive-text">
                                 <span class="icon-text">
                                     <i class="fa fa-square-full icon"></i>
                                     <span class="text">100+ Exhibitors are participating and growing every year since inception.</span>
                                 </span>
                             </p>
-                            
+
                             <p class="mb-4 responsive-text">
                                 <span class="icon-text">
                                     <i class="fa fa-square-full icon"></i>
                                     <span class="text">5000+ C-Store Owner/Operators, Gas station owners, and franchise owners personally invited by mail from Mississippi, Alabama, Florida, and neighboring states.</span>
                                 </span>
                             </p>
-                            
+
                             <p class="mb-4 responsive-text">
                                 <span class="icon-text">
                                     <i class="fa fa-square-full icon"></i>
                                     <span class="text">Vendor Set-up Schedule: Wednesday, June 4th, 2025. Time: 12:00 PM – 4:00 PM.</span>
                                 </span>
                             </p>
-                            
+
                             <p class="mb-4 responsive-text">
                                 <span class="icon-text">
                                     <i class="fa fa-square-full icon"></i>
                                     <span class="text">Trade Expo Schedule: Thursday, June 5th, 2025. Time: 10:00 AM - 4:00 PM.</span>
                                 </span>
                             </p>
-                            
+
                             <p class="mb-4 responsive-text">
                                 <span class="icon-text">
                                     <i class="fa fa-square-full icon"></i>
                                     <span class="text">Complimentary lunch featuring Indian and American foods for all exhibitors, vendors & attendees.</span>
                                 </span>
                             </p>
-                            
+
                             <p class="mb-4 responsive-text">
                                 <span class="icon-text">
                                     <i class="fa fa-square-full icon"></i>
@@ -143,14 +143,14 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-5">
                             <h5 class="mt-5 mb-5" style="font-size:22px;">Expo Contact</h5>
                             <p>Email Us: aasoaofalabama@gmail.com
-                                
-                            </p> 
+
+                            </p>
                             <p class="mb-5">Call Us: 251-776-3546(Vishal)</p>
                             <a style="width:93%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px; background:rgb(2, 147, 167); color:white" class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLScwmrBf9cIhn-xEQ60DmAys0Ib-xEcK8uKtPIu_EI2VBi_Upw/viewform" target="_blank">Exhibitor Registration</a>
-                            <a style="width:93%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px; background:rgb(3, 189, 148); color:white" class="btn" href="{{ asset('frontend/assets/document/AASOA_Exhibitor_2025.pdf') }}" target="_blank">AASOA - Expo Kit</a>
+                            <a style="width:93%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px; background:rgb(3, 189, 148); color:white" class="btn" href="{{ asset('frontend/assets/document/AASOA_Exhibitor_2025_v02.pdf') }}" target="_blank">AASOA - Expo Kit</a>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                            <img style="width:100%; height:auto" src="{{ asset('frontend/assets/images/e.png') }}" alt="Description of the image" />
+                            <img style="width:100%; height:auto" src="{{ asset('frontend/assets/images/AASOA_Exhibitor_2025_v02.png') }}" alt="Description of the image" />
 
                             <h5 class="mt-5 mb-5" style="font-size:22px;">Expo Directory</h5>
                             <a style="width:100%; height:60px; border:1px solid gray; line-height:45px; font-size:18px; margin-bottom:15px" class="btn">Expo 2025</a>
