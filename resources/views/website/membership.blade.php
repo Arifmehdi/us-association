@@ -24,7 +24,7 @@
         <!--=         Register        =-->
         <!--===========================-->
         <section id="page-content-wrap">
-            <div class="register-page-wrapper section-padding">
+            <div style="margin-top:-65px" class="register-page-wrapper section-padding">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">

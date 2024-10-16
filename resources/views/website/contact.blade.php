@@ -23,7 +23,7 @@
         <!--=         Contact Us        =-->
         <!--=============================-->
         <section id="page-content-wrap">
-            <div class="contact-page-wrap section-padding">
+            <div style="margin-top:-25px" class="contact-page-wrap section-padding">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">

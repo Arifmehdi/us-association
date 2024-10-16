@@ -1902,7 +1902,7 @@ blockquote:before {
     position: absolute;
     width: 100%;
     bottom: -5px;
-    border-bottom: 8px solid #000;
+    
 }
 .single-upcoming-event .up-event-text h3 {
     font-size: 30px;
@@ -2469,6 +2469,9 @@ blockquote:before {
     
     background-color: #ecf1f5;
     margin-top:55px;
+}
+.contacy-page-wrap{
+    background-color: red;
 }
 #page-content-wrap .about-page-content-wrap .single-about-text {
     
@@ -3368,8 +3371,8 @@ blockquote:before {
     color: #fff;
 }
 .contact-content-inner {
-    /* -webkit-box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1); */
+    -webkit-box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, 0.1);
 }
 .contact-content-inner .map-area-wrap {
     height: 100%;

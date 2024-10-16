@@ -80,7 +80,7 @@
                                                         <p></p>
                                                         {{-- <p>Time: 10am to 5pm</p> --}}
                                                         <p>Venue: Renaissance Montgomery Hotel & Spa at the Convention Centre, Montgomery, AL.</p>
-                                                        <a href="{{route('event.details')}}" class="btn btn-brand btn-brand-dark">Show More</a>
+                                                        <a style="border:1px solid rgb(233, 233, 233); border-radius:3px" href="{{route('event.details')}}" class="btn btn-brand ">Show More</a>
                                                     </div>
                                                 </div>
                                             </div>
