@@ -43,16 +43,7 @@
     margin: 0; /* Removes margin for the list */
 }
 
-.email-text {
-    display: block; /* Makes each email take a full line */
-    margin-bottom: 4px; /* Adds space between emails */
-}
 
-.icon {
-    display: block; /* Centers the icon */
-    margin-left: auto; /* Center the icon horizontally if needed */
-    margin-right: auto; /* Center the icon horizontally if needed */
-}
 
 
     
