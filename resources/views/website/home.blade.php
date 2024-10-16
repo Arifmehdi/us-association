@@ -6,7 +6,7 @@
         background-position: center;
         background-repeat: no-repeat;
         width:100%;
-        height:600px; 
+        height:600px;
         background-image:url({{ asset('frontend/assets/images/slider/t1.jpg') }})
 
     }
@@ -15,7 +15,7 @@
         background-position: center;
         background-repeat: no-repeat;
         width:100%;
-        height:600px; 
+        height:600px;
         background-image:url({{ asset('frontend/assets/images/slider/m1.jpg') }})
 
     }
@@ -24,7 +24,7 @@
         background-position: center;
         background-repeat: no-repeat;
         width:100%;
-        height:600px; 
+        height:600px;
         background-image:url({{ asset('frontend/assets/images/slider/h1.jpg') }})
 
     }
@@ -88,7 +88,7 @@
                             <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                 need academic, relocation, career, projects, mentorship, etc. you can ask the community
                                 and get responses in three.</p>
-                           
+
                         </div> --}}
                     </div>
                 </div>
@@ -104,7 +104,7 @@
                             <h3>Join Us <span>June 5th 2025</span></h3>
                             <p>Alabama's only Buying Trade show.</p>
                             <p>At Renaissance  Convention Centre, Montgomery, AL.</p>
-                            <a href="{{ asset('frontend/assets/document/AASOA_Exhibitor_2025.pdf') }}" style="border-radius:5px" class="btn btn-brand about-btn mt-3" target=-"_blank">Read More</a>
+                            <a href="{{ asset('frontend/assets/document/AASOA_Exhibitor_2025_v02.pdf') }}" style="border-radius:5px" class="btn btn-brand about-btn mt-3" target=-"_blank">Read More</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                             <p>Alumni Needs enables you to harness the power of your alumni network. Whatever may be the
                                 need academic, relocation, career, projects, mentorship, etc. you can ask the community
                                 and get responses in three.</p>
-                            
+
                         </div> --}}
                     </div>
                 </div>
@@ -328,7 +328,7 @@
             </div>
         </div>
     </div>
-    
+
 </section>
 
 
@@ -352,8 +352,8 @@
                             <h2 class="">Our Mission</h2>
                         </div>
                         <p style="margin-top:-45px">
-                            To constantly strive to meet or exceed our customer needs and expectations of price, service, and selection. 
-                            To this end, we will perform periodic reviews of the marketplace to improve our offerings. 
+                            To constantly strive to meet or exceed our customer needs and expectations of price, service, and selection.
+                            To this end, we will perform periodic reviews of the marketplace to improve our offerings.
                             AASOA of Alabama was established in 2012 and we are very fortunate to be able to serve local business owners.
                         </p>
                         <a href="#" style="border-radius:5px" class="btn btn-brand about-btn mt-3">Read More</a>
